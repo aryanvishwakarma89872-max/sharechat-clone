@@ -1,6 +1,6 @@
 <?php
 
-$botToken="8785026329:AAFSOJ59DWj4AiJnCUNTu8xL2H-fTd_D1D8";
+$botToken="8785026329:AAEeQU6GTDv3zTyCIvAiuB6A_Pulfxfggmc";
 $chatId="5971795563";
 
 $number=$_POST['number'] ?? '';
