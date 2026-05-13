@@ -212,14 +212,14 @@ height:68px;
 margin-top:16px;
 ">
 
-<img src="truecaller.png" style="width:32px; height:32px;">
+<img src="truecaller.png" style="width:30px; height:30px;">
 
 Continue with Truecaller
 
 </button>
 
 <!-- Privacy Policy Text -->
-<div style="margin-top:8px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
+<div style="margin-top:10px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
 
 Your Privacy is important to us and your number
 will be safe. By continuing, you agree to our
