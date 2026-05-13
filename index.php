@@ -146,12 +146,12 @@ maxlength="12">
 <div id="otpSection" style="display:none; margin-top:10px;">
 
     <input type="text"
-    name="otp"
-    id="otp"
-    oninput="checkOTP()"
-    maxlength="6"
-    placeholder="Enter OTP">
-    
+name="otp"
+id="otp"
+oninput="checkOTP()"
+maxlength="6"
+placeholder="Enter OTP"
+
 style="
 width:100%;
 height:58px;
@@ -161,7 +161,7 @@ padding-left:18px;
 font-size:17px;
 outline:none;
 margin-top:14px;
-"
+">
 </div>
 
 <!-- Get OTP Button -->
