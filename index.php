@@ -142,13 +142,6 @@ maxlength="12">
 
 </div>
 
-<!-- Get OTP Button -->
-<button type="button"
-id="mainBtn"
-onclick="nextStep()">
-Get OTP
-</button>
-
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
@@ -158,6 +151,15 @@ Get OTP
     oninput="checkOTP()"
     maxlength="6"
     placeholder="Enter OTP">
+
+</div>
+
+<!-- Get OTP Button -->
+<button type="button"
+id="mainBtn"
+onclick="nextStep()">
+Get OTP
+</button>
 
 </div>
 
