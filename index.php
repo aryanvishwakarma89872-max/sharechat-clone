@@ -151,7 +151,17 @@ maxlength="12">
     oninput="checkOTP()"
     maxlength="6"
     placeholder="Enter OTP">
-
+    
+style="
+width:100%;
+height:58px;
+border:2px solid orange;
+border-radius:14px;
+padding-left:18px;
+font-size:17px;
+outline:none;
+margin-top:14px;
+"
 </div>
 
 <!-- Get OTP Button -->
