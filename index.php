@@ -145,13 +145,12 @@ maxlength="12">
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
-    <input type="text"
+<input type="text"
 name="otp"
 id="otp"
 oninput="checkOTP()"
 maxlength="6"
 placeholder="Enter OTP"
-
 style="
 width:100%;
 height:58px;
