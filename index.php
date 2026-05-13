@@ -173,18 +173,19 @@ Get OTP
 <!-- Google Button -->
 <button type="button" style="
 width:100%;
-padding:7px;
-border:2px solid #0b5c8a;
+padding:10px 18px;
+border:2px solid #5d7df5;
 border-radius:14px;
 background:white;
-font-size:13px;
+font-size:15px;
 font-weight:bold;
 display:flex;
 align-items:center;
 justify-content:flex-start;
-gap:8px;
-color:#111;
-margin-bottom:10px;
+gap:14px;
+color:#222;
+height:68px;
+margin-top:18px;
 ">
 
 <img src="google.png" style="width:32px; height:32px;">
