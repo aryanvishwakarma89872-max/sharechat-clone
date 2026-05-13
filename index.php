@@ -188,7 +188,7 @@ Get OTP
 </div>
 
 <!-- OR Line -->
-<div style="display:flex; align-items:center; margin:30px 0;">
+<div style="display:flex; align-items:center; margin:18px 0;">
     <div style="flex:1; height:1px; background:#bdbdbd;"></div>
     <div style="padding:0 15px; font-size:20px; font-weight:bold;">Or</div>
     <div style="flex:1; height:1px; background:#bdbdbd;"></div>
