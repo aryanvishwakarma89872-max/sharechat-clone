@@ -153,11 +153,11 @@ maxlength="6"
 placeholder="Enter OTP"
 style="
 width:100%;
-height:58px;
+height:50px;
 border:2px solid orange;
 border-radius:14px;
 padding-left:18px;
-font-size:17px;
+font-size:16px;
 outline:none;
 margin-top:14px;
 ">
