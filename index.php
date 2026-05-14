@@ -189,7 +189,7 @@ Get OTP
 
 <!-- OR Line -->
 <div style="display:flex; align-items:center; margin:26px 0;">
-    <div style="flex:1; height:1px; background:#bdbdbd;"></div>
+    <div style="width:110px; height:1px; background:#ccc;"></div>
     <div style="padding:0 15px; font-size:20px; font-weight:bold;">Or</div>
     <div style="flex:1; height:1px; background:#bdbdbd;"></div>
 </div>
@@ -243,7 +243,7 @@ Continue with Truecaller
 </button>
 
 <!-- Privacy Policy Text -->
-<div style="margin-top:10px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
+<div style="margin-top:20px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
 
 Your Privacy is important to us and your number
 will be safe. By continuing, you agree to our
