@@ -252,12 +252,12 @@ Continue with Truecaller
 <div style="
 position:absolute;
 bottom:20px;
-left:0;
-width:100%;
+left:50%;
+transform:translateX(-50%);
+width:90%;
 text-align:center;
-font-size:14px;
-line-height:22px;
-padding:0 25px;
+font-size:13px;
+line-height:20px;
 color:#222;
 ">
 
