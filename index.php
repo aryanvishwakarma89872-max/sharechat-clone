@@ -19,6 +19,8 @@ body {
     margin: 0;
     font-family: Arial;
     background: #f5f6f8;
+    height:100vh;
+    overflow-y:auto;
 }
 
 #mainBtn{
