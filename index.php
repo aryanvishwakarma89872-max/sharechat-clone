@@ -209,7 +209,7 @@ justify-content:center;
 gap:14px;
 color:#222;
 height:44px;
-margin-top:18px;
+margin:18px auto 0 auto;
 ">
 
 <img src="google.png" style="width:24px; height:24px;">
@@ -233,7 +233,7 @@ justify-content:center;
 gap:14px;
 color:#222;
 height:44px;
-margin-top:16px;
+margin:18px auto 0 auto;
 ">
 
 <img src="truecaller.png" style="width:24px; height:24px;">
