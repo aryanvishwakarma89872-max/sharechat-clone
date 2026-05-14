@@ -255,6 +255,10 @@ bottom:20px;
 left:0;
 width:100%;
 text-align:center;
+font-size:14px;
+line-height:22px;
+padding:0 25px;
+color:#222;
 ">
 
 Your Privacy is important to us and your number
