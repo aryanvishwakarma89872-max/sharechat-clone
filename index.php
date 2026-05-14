@@ -212,7 +212,7 @@ height:68px;
 margin-top:18px;
 ">
 
-<img src="google.png" style="width:32px; height:32px;">
+<img src="google.png" style="width:24px; height:24px;">
 
 Continue with Google
 
@@ -236,7 +236,7 @@ height:68px;
 margin-top:16px;
 ">
 
-<img src="truecaller.png" style="width:30px; height:30px;">
+<img src="truecaller.png" style="width:24px; height:24px;">
 
 Continue with Truecaller
 
