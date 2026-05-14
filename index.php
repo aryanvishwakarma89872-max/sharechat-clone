@@ -189,7 +189,7 @@ Get OTP
 
 <!-- OR Line -->
 <div style="display:flex; align-items:center; margin:26px 0;">
-    <div style="width:110px; height:1px; background:#ccc;"></div>
+    <div style="width:150px; height:1px; background:#ccc;"></div>
     <div style="padding:0 15px; font-size:20px; font-weight:bold;">Or</div>
     <div style="flex:1; height:1px; background:#bdbdbd;"></div>
 </div>
