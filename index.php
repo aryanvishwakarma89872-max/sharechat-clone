@@ -197,18 +197,18 @@ Get OTP
 <!-- Google Button -->
 <button type="button" style="
 width:100%;
-padding:10px 18px;
+padding:0px 14px;
 border:2px solid #5d7df5;
 border-radius:14px;
 background:white;
-font-size:15px;
+font-size:14px;
 font-weight:bold;
 display:flex;
 align-items:center;
 justify-content:flex-start;
 gap:14px;
 color:#222;
-height:68px;
+height:48px;
 margin-top:18px;
 ">
 
@@ -221,11 +221,11 @@ Continue with Google
 <!-- Truecaller Button -->
 <button type="button" style="
 width:100%;
-padding:10px 18px;
+padding:0px 14px;
 border:2px solid #5d7df5;
 border-radius:14px;
 background:white;
-font-size:15px;
+font-size:16px;
 font-weight:bold;
 display:flex;
 align-items:center;
