@@ -232,7 +232,7 @@ align-items:center;
 justify-content:flex-start;
 gap:14px;
 color:#222;
-height:68px;
+height:48px;
 margin-top:16px;
 ">
 
