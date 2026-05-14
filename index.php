@@ -247,7 +247,7 @@ Continue with Truecaller
 </button>
 
 <!-- Privacy Policy Text -->
-<div style="margin-top:20px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
+<div style="margin-top:30px; text-align:center; font-size:13px; line-height:1.4; color:#222;">
 
 Your Privacy is important to us and your number
 will be safe. By continuing, you agree to our
