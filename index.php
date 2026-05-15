@@ -256,7 +256,7 @@ position:absolute;
 bottom:35px;
 left:50%;
 transform:translateX(-50%);
-width:90%;
+width:95%;
 text-align:center;
 font-size:13px;
 line-height:18px;
