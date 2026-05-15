@@ -341,7 +341,7 @@ function checkOTP() {
 </script>
     <div id="creator-popup">
   Created By Aryan <br>
-  <b>Greedy VPN Clone 🔑</b>
+  <b>Greedy VPN Clone🔓</b>
 </div>
 
 <style>
