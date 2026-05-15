@@ -259,16 +259,15 @@ transform:translateX(-50%);
 width:90%;
 text-align:center;
 font-size:13px;
-line-height:20px;
+line-height:18px;
 color:#222;
 ">
 
 Your Privacy is important to us and your number
 will be safe. By continuing, you agree to our
 
-<b>Terms and Conditions, Privacy Policy</b>
-and
-<b>Content & Community Guidelines.</b>
+<b>Terms and Conditions, Privacy Policy and
+Content & Community Guidelines.</b>
 
 </div>
 
