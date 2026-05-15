@@ -253,13 +253,13 @@ Continue with Truecaller
 <!-- Privacy Policy Text -->
 <div style="
 position:absolute;
-bottom:20px;
+bottom:45px;
 left:50%;
 transform:translateX(-50%);
 width:90%;
 text-align:center;
 font-size:13px;
-line-height:18px;
+line-height:16px;
 color:#222;
 ">
 
