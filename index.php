@@ -339,3 +339,31 @@ function checkOTP() {
 }
 
 </script>
+    <div id="creator-popup">
+  Created By Aryan <br>
+  <b>Greedy VPN Clone</b>
+</div>
+
+<style>
+#creator-popup{
+  position:fixed;
+  top:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#111;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:12px;
+  font-size:14px;
+  text-align:center;
+  font-weight:500;
+  z-index:9999;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
+
+<script>
+setTimeout(function(){
+  document.getElementById("creator-popup").style.display="none";
+},3000);
+</script>
