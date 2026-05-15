@@ -253,19 +253,19 @@ Continue with Truecaller
 <!-- Privacy Policy Text -->
 <div style="
 position:absolute;
-bottom:45px;
+bottom:35px;
 left:50%;
 transform:translateX(-50%);
 width:90%;
 text-align:center;
 font-size:13px;
-line-height:16px;
+line-height:20px;
 color:#222;
 ">
 
-Your Privacy is important to us and your number
-will be safe. By continuing, you agree to our
-
+Your Privacy is important to us and your number will be safe.
+<br>
+By continuing, you agree to our
 <b>Terms and Conditions, Privacy Policy and
 Content & Community Guidelines.</b>
 
