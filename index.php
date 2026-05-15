@@ -232,7 +232,7 @@ padding:0px 12px;
 border:2px solid #5d7df5;
 border-radius:6px;
 background:white;
-font-size:16px;
+font-size:14px;
 font-weight:bold;
 display:flex;
 align-items:center;
