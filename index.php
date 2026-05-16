@@ -205,10 +205,8 @@ Resend in 30s
 
 </div>
     <button type="button"
-id="mainBtn"
-onclick="nextStep()"
-
-style="
+id="verifyBtn"
+style="display:none;
 width:100%;
 height:44px;
 background:#0666ff;
