@@ -143,7 +143,6 @@ maxlength="12">
     </div>
 
 </div>
-
 <!-- Get OTP Button -->
 
 <button type="button"
@@ -204,7 +203,7 @@ Get OTP
         font-size:15px;
         ">
 
-        Resend in 30s
+        Resend in 59s
 
         </span>
 
@@ -235,6 +234,8 @@ Get OTP
     </button>
 
 </div>
+
+    
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
     
