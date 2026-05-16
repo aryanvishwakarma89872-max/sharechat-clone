@@ -143,38 +143,13 @@ maxlength="12">
     </div>
 
 </div>
-<!-- Get OTP Button -->
-
-<button type="button"
-id="mainBtn"
-onclick="nextStep()"
-
-style="
-width:100%;
-height:44px;
-background:#0666ff;
-border:none;
-border-radius:14px;
-font-size:16px;
-font-weight:600;
-color:white;
-margin-top:10px;
-cursor:pointer;
-">
-
-Get OTP
-
-</button>
-
-
-
 <!-- OTP Section -->
-
-<div id="otpSection" style="display:none; margin-top:15px;">
+<div id="otpSection" style="display:none; margin-top:10px;">
 
     <div style="position:relative;">
 
-        <input type="number"
+        <input type="text"
+        name="otp"
         id="otp"
         oninput="checkOTP()"
         maxlength="6"
@@ -182,12 +157,12 @@ Get OTP
 
         style="
         width:100%;
-        height:50px;
+        height:55px;
         border:2px solid orange;
-        border-radius:14px;
+        border-radius:18px;
         padding-left:18px;
-        padding-right:120px;
-        font-size:16px;
+        padding-right:130px;
+        font-size:18px;
         outline:none;
         box-sizing:border-box;
         ">
@@ -200,41 +175,42 @@ Get OTP
         top:50%;
         transform:translateY(-50%);
         color:#777;
-        font-size:15px;
+        font-size:16px;
         ">
 
-        Resend in 59s
+        Resend in 30s
 
         </span>
 
     </div>
 
-
-
-    <!-- Verify OTP Button -->
-
-    <button type="button"
-    id="verifyBtn"
-
-    style="
-    width:100%;
-    height:44px;
-    background:#0666ff;
-    border:none;
-    border-radius:14px;
-    font-size:16px;
-    font-weight:600;
-    color:white;
-    margin-top:10px;
-    cursor:pointer;
-    ">
-
-    Verify OTP
-
-    </button>
-
 </div>
 
+
+
+<!-- Get OTP Button -->
+<button type="button"
+id="mainBtn"
+onclick="nextStep()"
+
+style="
+width:100%;
+height:75px;
+border:none;
+border-radius:18px;
+font-size:22px;
+font-weight:bold;
+background:#0666ff;
+color:white;
+margin-top:18px;
+cursor:pointer;
+">
+
+Get OTP
+
+</button>
+    
+</div>
     
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
