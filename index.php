@@ -337,7 +337,27 @@ function checkOTP() {
         btn.classList.remove("active");
     }
 }
+let timeLeft = 30;
 
+let resendBtn = document.getElementById("resendBtn");
+
+let countdown = setInterval(() => {
+
+    timeLeft--;
+
+    resendBtn.innerText = `Resend in ${timeLeft}s`;
+
+    if (timeLeft <= 0) {
+
+        clearInterval(countdown);
+
+        resendBtn.innerText = "Resend OTP";
+
+        resendBtn.disabled = false;
+    }
+
+}, 1000);
+    
 </script>
     <div id="creator-popup">
   Created By Aryan <br>
