@@ -163,6 +163,9 @@ font-size:16px;
 outline:none;
 margin-top:14px;
 ">
+    <button id="resendBtn" disabled>
+Resend in 30s
+    </button>
 </div>
 
 <!-- Get OTP Button -->
