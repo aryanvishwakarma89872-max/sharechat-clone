@@ -156,7 +156,7 @@ background:#0666ff;
 border:none;
 border-radius:14px;
 font-size:16px;
-font-weight:bold;
+font-weight:600;
 color:white;
 margin-top:10px;
 cursor:pointer;
