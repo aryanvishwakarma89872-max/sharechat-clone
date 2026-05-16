@@ -145,6 +145,7 @@ maxlength="12">
 </div>
 
 <!-- OTP Section -->
+ <div id="otpSection" style="display:none;">
 <div style="position:relative; margin-top:14px;">
 
 <input type="text"
