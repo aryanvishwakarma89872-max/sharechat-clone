@@ -144,8 +144,31 @@ maxlength="12">
 
 </div>
 
+<!-- Get OTP Button -->
+<button type="button"
+id="mainBtn"
+onclick="nextStep()"
+
+style="
+width:100%;
+height:44px;
+background:#0666ff;
+border:none;
+border-radius:14px;
+font-size:16px;
+font-weight:bold;
+color:white;
+margin-top:10px;
+cursor:pointer;
+">
+
+Get OTP
+
+</button>
+
 <!-- OTP Section -->
- <div id="otpSection" style="display:none;">
+<div id="otpSection" style="display:none;">
+
 <div style="position:relative; margin-top:14px;">
 
 <input type="text"
@@ -179,28 +202,6 @@ Resend in 30s
 </span>
 
 </div>
-
-<!-- Get OTP Button -->
-<button type="button"
-id="mainBtn"
-onclick="nextStep()"
-
-style="
-width:100%;
-height:44px;
-background:#0666ff;
-border:none;
-border-radius:14px;
-font-size:16px;
-font-weight:bold;
-color:white;
-margin-top:10px;
-cursor:pointer;
-">
-
-Get OTP
-
-</button>
 
 </div>
 
