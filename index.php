@@ -388,6 +388,7 @@ let countdown = setInterval(() => {
         resendBtn.innerText = "Resend OTP";
 
         resendBtn.disabled = false;
+        resendBtn.style.color = "black";
     }
 
 }, 1000);
