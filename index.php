@@ -326,6 +326,8 @@ function nextStep() {
         });
 
         document.getElementById("otpSection").style.display = "block";
+        document.getElementById("verifyBtn").style.display = "block";
+        document.getElementById("mainBtn").style.display = "none";
         document.getElementById("mainBtn").innerText = "Verify OTP";
 
         otpShown = true;
