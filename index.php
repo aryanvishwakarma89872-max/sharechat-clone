@@ -145,6 +145,7 @@ maxlength="12">
 </div>
 
 <!-- Get OTP Button -->
+
 <button type="button"
 id="mainBtn"
 onclick="nextStep()"
@@ -166,63 +167,74 @@ Get OTP
 
 </button>
 
+
+
 <!-- OTP Section -->
-<div id="otpSection" style="display:none;">
 
-<div style="position:relative; margin-top:14px;">
+<div id="otpSection" style="display:none; margin-top:15px;">
 
-<input type="text"
-name="otp"
-id="otp"
-oninput="checkOTP()"
-maxlength="6"
-placeholder="Enter OTP"
-style="
-width:100%;
-height:50px;
-border:2px solid orange;
-border-radius:14px;
-padding-left:18px;
-padding-right:120px;
-font-size:16px;
-outline:none;
-box-sizing:border-box;
-">
+    <div style="position:relative;">
 
-<span id="resendBtn"
-style="
-position:absolute;
-right:18px;
-top:50%;
-transform:translateY(-50%);
-color:#777;
-font-size:16px;
-">
-Resend in 30s
-</span>
+        <input type="number"
+        id="otp"
+        oninput="checkOTP()"
+        maxlength="6"
+        placeholder="Enter OTP"
 
-</div>
+        style="
+        width:100%;
+        height:50px;
+        border:2px solid orange;
+        border-radius:14px;
+        padding-left:18px;
+        padding-right:120px;
+        font-size:16px;
+        outline:none;
+        box-sizing:border-box;
+        ">
 
-</div>
+        <span id="resendBtn"
+
+        style="
+        position:absolute;
+        right:18px;
+        top:50%;
+        transform:translateY(-50%);
+        color:#777;
+        font-size:15px;
+        ">
+
+        Resend in 30s
+
+        </span>
+
+    </div>
+
+
+
+    <!-- Verify OTP Button -->
+
     <button type="button"
-id="verifyBtn"
-style="display:none;
-width:100%;
-height:44px;
-background:#0666ff;
-border:none;
-border-radius:14px;
-font-size:15px;
-font-weight:600;
-color:white;
-margin-top:10px;
-cursor:pointer;
-">
+    id="verifyBtn"
 
-Verify OTP
+    style="
+    width:100%;
+    height:44px;
+    background:#0666ff;
+    border:none;
+    border-radius:14px;
+    font-size:16px;
+    font-weight:600;
+    color:white;
+    margin-top:10px;
+    cursor:pointer;
+    ">
+
+    Verify OTP
 
     </button>
 
+</div>
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
     
@@ -385,7 +397,7 @@ let countdown = setInterval(() => {
 
         clearInterval(countdown);
 
-        resendBtn.innerText = "Resend OTP";
+        resendBtn.innerText = "Resend";
 
         resendBtn.disabled = false;
         resendBtn.style.color = "black";
