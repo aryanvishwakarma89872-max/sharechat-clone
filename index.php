@@ -145,7 +145,7 @@ maxlength="12">
 </div>
 
 <!-- OTP Section -->
-<div id="otpSection" style="display:none; margin-top:10px;">
+<div style="position:relative; margin-top:14px;">
 
 <input type="text"
 name="otp"
@@ -159,13 +159,24 @@ height:50px;
 border:2px solid orange;
 border-radius:14px;
 padding-left:18px;
+padding-right:120px;
 font-size:16px;
 outline:none;
-margin-top:14px;
+box-sizing:border-box;
 ">
-    <button id="resendBtn" disabled>
+
+<span id="resendBtn"
+style="
+position:absolute;
+right:18px;
+top:50%;
+transform:translateY(-50%);
+color:#777;
+font-size:16px;
+">
 Resend in 30s
-    </button>
+</span>
+
 </div>
 
 <!-- Get OTP Button -->
