@@ -195,10 +195,10 @@ onclick="nextStep()"
 
 style="
 width:100%;
-height:75px;
+height:45px;
 border:none;
-border-radius:18px;
-font-size:22px;
+border-radius:12px;
+font-size:15px;
 font-weight:bold;
 background:#0666ff;
 color:white;
