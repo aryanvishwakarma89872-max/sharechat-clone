@@ -78,11 +78,30 @@ p {
     padding: 15px;
 }
 
-.country img {
-    width: 28px;
-    margin-right: 8px;
+
+    .country{
+    width: 28%;   /* +91 wala box chhota */
+    background: #f3f3f3;
+    border-radius: 15px 0 0 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.phone{
+    width: 72%;   /* phone input bada */
+}
+
+.phone input{
+    width: 100%;
+    background: #f3f3f3;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    font-size: 18px;
+}
 .phone input,
 #otp {
     width: 100%;
