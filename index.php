@@ -61,103 +61,93 @@ p {
     font-size: 18px;
 }
 
-.input-box {
-    display: flex;
-    gap: 10px;
-    margin-top: 25px;
+/* INPUT BOX MAIN */
+.input-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:25px;
+    width:100%;
 }
 
-.country {
-    width: 110px;
-    background: #ececec;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    padding: 15px;
-}
-
-
-    .country{
-    width: 28%;   /* +91 wala box chhota */
-    background: #f3f3f3;
-    border-radius: 15px 0 0 15px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.phone{
-    width: 72%;   /* phone input bada */
-}
-
-.phone input{
-    width: 100%;
-    background: #f3f3f3;
-    border: none;
-    outline: none;
-    padding: 15px;
-    border-radius: 0 15px 15px 0;
-    font-size: 18px;
-}
-.phone input,
-#otp {
-    width: 100%;
-    padding: 18px;
-    border: none;
-    border-radius: 12px;
-    background: #ececec;
-    font-size: 18px;
-    box-sizing: border-box;
-}
-
-.phone {
-    flex: 1;
-}
-
-#otpSection {
-    display: none;
-    margin-top: 15px;
-}
-
-button {
-    width: 100%;
-    margin-top: 25px;
-    padding: 20px;
-    border: none;
-    border-radius: 18px;
-    background: #e5e5e5;
-    font-size: 20px;
-    font-weight: bold;
-    color: #5e6f8d;
-}
-  .country{
-  .country{
-    width:65px;
-    min-width:65px;
+/* COUNTRY CODE BOX */
+.country{
+    width:85px;
+    min-width:85px;
     height:58px;
-    background:#f3f3f3;
+    background:#ececec;
     border-radius:14px;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:0;
-    margin-right:8px;
-  }
+    padding:0 10px;
+    box-sizing:border-box;
+}
+
+/* COUNTRY SELECT */
 .country select{
     width:100%;
     border:none;
     background:none;
-    font-size:15px;
-    font-weight:600;
-    color:#555;
     outline:none;
-    padding:5px;
+    font-size:16px;
+    font-weight:600;
+    color:#333;
     appearance:none;
     -webkit-appearance:none;
-}  
+    text-align:center;
+}
+
+/* PHONE INPUT AREA */
+.phone{
+    flex:1;
+}
+
+/* PHONE INPUT */
+.phone input{
+    width:100%;
+    height:58px;
+    border:none;
+    outline:none;
+    background:#ececec;
+    border-radius:14px;
+    padding:0 18px;
+    font-size:18px;
+    box-sizing:border-box;
+}
+
+/* OTP SECTION */
+#otpSection{
+    display:none;
+    margin-top:15px;
+}
+
+/* OTP INPUT */
+#otp{
+    width:100%;
+    height:58px;
+    border:none;
+    outline:none;
+    background:#ececec;
+    border-radius:14px;
+    padding:0 18px;
+    font-size:18px;
+    box-sizing:border-box;
+}
+
+/* BUTTON */
+button{
+    width:100%;
+    margin-top:25px;
+    padding:18px;
+    border:none;
+    border-radius:18px;
+    background:#0d6efd;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    }
     
 </style>
 </head>
