@@ -138,13 +138,15 @@ p {
 /* BUTTON */
 button{
     width:100%;
-    margin-top:25px;
-    padding:12px; /* pehle 18-20 tha */
+    height:52px; /* fixed small height */
+    margin-top:20px;
     border:none;
     border-radius:16px;
     background:#0d6efd;
-    font-size:15px; /* pehle 20px tha */
-    font-weight:600; /* bold kam */
+    
+    font-size:16px;
+    font-weight:600;
+
     color:white;
     cursor:pointer;
 }
