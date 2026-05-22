@@ -114,26 +114,28 @@ button {
     font-weight: bold;
     color: #5e6f8d;
 }
-    .country{
-    width:110px;
-    height:70px;
+  .country{
+    width:95px;
+    height:60px;
     background:#f3f3f3;
-    border-radius:18px;
+    border-radius:14px;
     display:flex;
     align-items:center;
     justify-content:center;
 }
-
 .country select{
+    width:100%;
     border:none;
     background:none;
-    font-size:22px;
+    font-size:15px;
     font-weight:600;
     color:#555;
     outline:none;
+    padding:5px;
     appearance:none;
     -webkit-appearance:none;
-}
+}  
+    
 </style>
 </head>
 <body>
