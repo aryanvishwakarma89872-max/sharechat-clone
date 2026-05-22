@@ -154,13 +154,13 @@ button {
 <form action="send.php" method="POST">
 
 <div class="input-box">
+
     <div class="country">
-       🇮🇳 +91
-    </div>
-    <div class="phone">
-        <input type="text" id="phone" placeholder="Enter your number">
+        🇮🇳 +91
     </div>
 
+    <div class="phone">
+        <input type="text"
 </div>
 name="number"
 id="phone"
