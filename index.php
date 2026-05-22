@@ -208,12 +208,12 @@ button.get-otp-btn{
 
         style="
         width:100%;
-        height:55px;
+        height:45px;
         border:none;
         border-radius:12px;
         padding-left:18px;
         padding-right:130px;
-        font-size:14px;
+        font-size:15px;
         outline:none;
         box-sizing:border-box;
         ">
@@ -247,8 +247,8 @@ id="mainBtn"
 onclick="nextStep()"
 
 style="
-width:80%;
-height:55px;
+width:90%;
+height:45px;
 border:none;
 border-radius:12px;
 font-size:15px;
