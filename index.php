@@ -160,14 +160,16 @@ button {
     </div>
 
     <div class="phone">
-        <input type="text" id="phone" placeholder="Enter your phone number">
+        <input
+            type="text"
+            name="number"
+            id="phone"
+            oninput="checkPhone()"
+            maxlength="12"
+            placeholder="Enter your phone number">
     </div>
+
 </div>
-name="number"
-id="phone"
-oninput="checkPhone()"
-maxlength="12">
-    </div>
 
 </div>
 <!-- OTP Section -->
