@@ -115,7 +115,7 @@ button {
     color: #5e6f8d;
 }
   .country{
-    width:95px;
+    width:75px;
     height:60px;
     background:#f3f3f3;
     border-radius:14px;
