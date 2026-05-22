@@ -202,7 +202,9 @@ button.get-otp-btn{
 <div class="container">
 
 <img src="logo.png" class="logo">
-
+    
+<div id="firstPage">
+    
 <h1>Welcome!</h1>
 <p>Login for an amazing experience</p>
 
