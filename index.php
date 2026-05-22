@@ -197,39 +197,46 @@ button.get-otp-btn{
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
-    <div style="position:relative;">
+    <div style="position:relative; width:100%;">
 
-        <input type="text"
-        name="otp"
-        id="otp"
-        oninput="checkOTP()"
-        maxlength="6"
-        placeholder="Enter OTP"
+    <input type="text"
+    id="otp"
+    placeholder="Enter OTP"
 
-        style="
-        width:100%;
-        height:45px;
-        border:none;
-        border-radius:12px;
-        padding-left:18px;
-        padding-right:130px;
-        font-size:15px;
-        outline:none;
-        box-sizing:border-box;
-        ">
+    style="
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:18px;
+    padding-left:20px;
+    padding-right:150px;
+    font-size:16px;
+    background:#f3f3f3;
+    box-sizing:border-box;
+    ">
 
-        <span id="resendBtn"
+    <button id="resendBtn"
 
-        style="
-        position:absolute;
-        right:18px;
-        top:50%;
-        transform:translateY(-50%);
-        color:#777;
-        font-size:16px;
-        ">
+    style="
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
 
-        Resend in 30s
+    height:40px;
+    padding:0 18px;
+
+    border:2px solid #8c8c8c;
+    border-radius:10px;
+
+    background:white;
+    color:#777;
+    font-size:14px;
+    ">
+    Resend in 30s
+    </button>
+
+    </div>
 
         </span>
 
