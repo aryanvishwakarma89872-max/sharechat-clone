@@ -178,7 +178,7 @@ maxlength="12">
         font-size:16px;
         ">
 
-        Resend in 59s
+        Resend in 30s
 
         </span>
 
@@ -360,7 +360,7 @@ function checkOTP() {
         btn.classList.remove("active");
     }
 }
-let timeLeft = 59;
+let timeLeft = 30;
 
 let resendBtn = document.getElementById("resendBtn");
 
