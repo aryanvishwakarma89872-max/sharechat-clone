@@ -210,10 +210,10 @@ button.get-otp-btn{
         width:100%;
         height:55px;
         border:none;
-        border-radius:14px;
+        border-radius:12px;
         padding-left:18px;
         padding-right:130px;
-        font-size:15px;
+        font-size:14px;
         outline:none;
         box-sizing:border-box;
         ">
@@ -248,7 +248,7 @@ onclick="nextStep()"
 
 style="
 width:80%;
-height:45px;
+height:55px;
 border:none;
 border-radius:12px;
 font-size:15px;
