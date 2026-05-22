@@ -245,10 +245,10 @@ onclick="nextStep()"
 
 style="
 width:100%;
-height:45px;
+height:38px;
 border:none;
 border-radius:12px;
-font-size:15px;
+font-size:14px;
 font-weight:bold;
 background:#0666ff;
 color:white;
