@@ -139,15 +139,15 @@ p {
 button{
     width:100%;
     margin-top:25px;
-    padding:18px;
+    padding:12px; /* pehle 18-20 tha */
     border:none;
-    border-radius:18px;
+    border-radius:16px;
     background:#0d6efd;
-    font-size:20px;
-    font-weight:bold;
+    font-size:15px; /* pehle 20px tha */
+    font-weight:600; /* bold kam */
     color:white;
     cursor:pointer;
-    }
+}
     
 </style>
 </head>
