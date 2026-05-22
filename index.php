@@ -208,12 +208,12 @@ button.get-otp-btn{
 
         style="
         width:100%;
-        height:55px;
+        height:45px;
         border:2px solid orange;
-        border-radius:18px;
+        border-radius:12px;
         padding-left:18px;
         padding-right:130px;
-        font-size:18px;
+        font-size:15px;
         outline:none;
         box-sizing:border-box;
         ">
