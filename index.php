@@ -202,9 +202,7 @@ button.get-otp-btn{
 <div class="container">
 
 <img src="logo.png" class="logo">
-    
-<div id="firstPage">
-    
+
 <h1>Welcome!</h1>
 <p>Login for an amazing experience</p>
 
@@ -253,7 +251,6 @@ button.get-otp-btn{
 
 </div>
 <!-- OTP Section -->
-    <div id="otpPage" style="display:none;">
 <div id="otpSection" style="display:none; margin-top:10px;">
 
     <div style="position:relative; width:100%;">
@@ -488,16 +485,24 @@ function nextStep() {
     }
 }
 function checkPhone() {
-    let phone = document.getElementById("phone").value;
-    let btn = document.getElementById("mainBtn");
 
-    if (phone.length == 10) {
-        btn.classList.add("active");
-    } else {
-        btn.classList.remove("active");
-    }
+let phone = document.getElementById("phone").value;
+
+let otpBox = document.getElementById("otpSection");
+
+let getOtp = document.getElementById("getOtpSection");
+
+if(phone.length == 10){
+
+    getOtp.style.display = "block";
+
+} else {
+
+    getOtp.style.display = "none";
+
+    otpBox.style.display = "none";
+
 }
-
 function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
