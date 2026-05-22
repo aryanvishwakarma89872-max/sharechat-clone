@@ -112,12 +112,13 @@ p {
 /* OTP INPUT */
 #otp{
     width:100%;
-    height:50px;
-    border:2px solid orange;
-    border-radius:14px;
-    padding:0 16px;
-    font-size:16px;
+    height:44px;
+    border:none;
+    border-radius:12px;
+    padding:0 12px;
+    font-size:15px;
     box-sizing:border-box;
+    background:#ececec;
 }
     /* GET OTP BUTTON */
 button.get-otp-btn{
