@@ -131,6 +131,24 @@ button{
     font-size:16px;
     font-weight:600;
 }
+    /* GET OTP BUTTON */
+button.get-otp-btn{
+    width:100% !important;
+    height:46px !important;
+
+    padding:0 !important;
+
+    border:none;
+    border-radius:14px;
+
+    background:#0d6efd;
+    color:white;
+
+    font-size:15px !important;
+    font-weight:600;
+
+    margin-top:18px;
+}
     
 </style>
 </head>
