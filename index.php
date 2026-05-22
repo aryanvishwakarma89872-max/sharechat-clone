@@ -253,6 +253,7 @@ button.get-otp-btn{
 
 </div>
 <!-- OTP Section -->
+    <div id="otpPage" style="display:none;">
 <div id="otpSection" style="display:none; margin-top:10px;">
 
     <div style="position:relative; width:100%;">
