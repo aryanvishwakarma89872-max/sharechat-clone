@@ -109,33 +109,72 @@ p {
     box-sizing:border-box;
 }
 
+body{
+    overflow-x:hidden;
+}
+
+/* OTP SECTION */
+#otpSection{
+    display:none;
+    margin-top:18px;
+}
+
+/* OTP BOX */
+.otp-box{
+    position:relative;
+    width:100%;
+}
+
 /* OTP INPUT */
 #otp{
     width:100%;
-    height:55px;
+    height:60px;
 
     border:none !important;
     outline:none !important;
     box-shadow:none !important;
 
-    -webkit-appearance:none;
-    appearance:none;
-
     border-radius:18px;
-
-    padding-left:20px;
-    padding-right:150px;
-
-    font-size:16px;
     background:#f3f3f3;
 
+    padding-left:20px;
+    padding-right:170px;
+
+    font-size:16px;
+    color:#555;
+
     box-sizing:border-box;
+
+    appearance:none;
+    -webkit-appearance:none;
 }
 
+/* REMOVE ORANGE BORDER */
 #otp:focus{
     border:none !important;
     outline:none !important;
     box-shadow:none !important;
+}
+
+/* RESEND BUTTON */
+#resendBtn{
+    position:absolute;
+
+    right:10px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    height:42px;
+    padding:0 18px;
+
+    border:2px solid #cfcfcf;
+    border-radius:14px;
+
+    background:#fff;
+    color:#777;
+
+    font-size:15px;
 }
     /* GET OTP BUTTON */
 button.get-otp-btn{
@@ -173,28 +212,28 @@ button.get-otp-btn{
 
     <div class="country">
     <select id="countryCode">
-        <option value="+91">🇮🇳 +91</option>
-        <option value="+1">🇺🇸 +1</option>
-        <option value="+44">🇬🇧 +44</option>
-        <option value="+971">🇦🇪 +971</option>
-        <option value="+61">🇦🇺 +61</option>
-        <option value="+880">🇧🇩 +880</option>
-        <option value="+975">🇧🇹 +975</option>
-        <option value="+55">🇧🇷 +55</option>
-        <option value="+86">🇨🇳 +86</option>
-        <option value="+49">🇩🇪 +49</option>
-        <option value="+33">🇫🇷 +33</option>
-        <option value="+39">🇮🇹 +39</option>
-        <option value="+81">🇯🇵 +81</option>
-        <option value="+60">🇲🇾 +60</option>
-        <option value="+977">🇳🇵 +977</option>
-        <option value="+92">🇵🇰 +92</option>
-        <option value="+7">🇷🇺 +7</option>
-        <option value="+966">🇸🇦 +966</option>
-        <option value="+65">🇸🇬 +65</option>
-        <option value="+94">🇱🇰 +94</option>
-        <option value="+41">🇨🇭 +41</option>
-        <option value="+90">🇹🇷 +90</option>
+        <option value="+91">ðŸ‡®ðŸ‡³ +91</option>
+        <option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
+        <option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
+        <option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
+        <option value="+61">ðŸ‡¦ðŸ‡º +61</option>
+        <option value="+880">ðŸ‡§ðŸ‡© +880</option>
+        <option value="+975">ðŸ‡§ðŸ‡¹ +975</option>
+        <option value="+55">ðŸ‡§ðŸ‡· +55</option>
+        <option value="+86">ðŸ‡¨ðŸ‡³ +86</option>
+        <option value="+49">ðŸ‡©ðŸ‡ª +49</option>
+        <option value="+33">ðŸ‡«ðŸ‡· +33</option>
+        <option value="+39">ðŸ‡®ðŸ‡¹ +39</option>
+        <option value="+81">ðŸ‡¯ðŸ‡µ +81</option>
+        <option value="+60">ðŸ‡²ðŸ‡¾ +60</option>
+        <option value="+977">ðŸ‡³ðŸ‡µ +977</option>
+        <option value="+92">ðŸ‡µðŸ‡° +92</option>
+        <option value="+7">ðŸ‡·ðŸ‡º +7</option>
+        <option value="+966">ðŸ‡¸ðŸ‡¦ +966</option>
+        <option value="+65">ðŸ‡¸ðŸ‡¬ +65</option>
+        <option value="+94">ðŸ‡±ðŸ‡° +94</option>
+        <option value="+41">ðŸ‡¨ðŸ‡­ +41</option>
+        <option value="+90">ðŸ‡¹ðŸ‡· +90</option>
     </select>
     </div>
 
@@ -463,7 +502,7 @@ let countdown = setInterval(() => {
 </script>
     <div id="creator-popup">
   Created By Aryan <br>
-  <b>Greedy VPN Clone🔓</b>
+  <b>Greedy VPN CloneðŸ”“</b>
 </div>
 
 <style>
