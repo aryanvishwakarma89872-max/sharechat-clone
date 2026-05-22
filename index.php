@@ -160,7 +160,8 @@ button {
     </div>
 
     <div class="phone">
-        <input type="text"
+        <input type="text" id="phone" placeholder="Enter your phone number">
+    </div>
 </div>
 name="number"
 id="phone"
