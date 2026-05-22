@@ -158,14 +158,10 @@ button {
        🇮🇳 +91
     </div>
     <div class="phone">
-        <input type="text" id="phone" placeholder="Enter number">
+        <input type="text" id="phone" placeholder="Enter your number">
     </div>
 
 </div>
-    
-    </div>
-    <div class="phone">
-        <input type="text"
 name="number"
 id="phone"
 oninput="checkPhone()"
