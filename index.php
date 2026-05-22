@@ -166,7 +166,7 @@ button {
         <option value="+33">🇫🇷 France (+33)</option>
         <option value="+49">🇩🇪 Germany (+49)</option>
         <option value="+852">🇭🇰 Hong Kong (+852)</option>
-        <option value="+91" selected>🇮🇳 India (+91)</option>
+        <option value="+91" selected>🇮🇳 +91</option>
         <option value="+62">🇮🇩 Indonesia (+62)</option>
         <option value="+98">🇮🇷 Iran (+98)</option>
         <option value="+964">🇮🇶 Iraq (+964)</option>
