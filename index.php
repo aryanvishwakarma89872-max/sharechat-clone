@@ -119,18 +119,6 @@ p {
     font-size:16px;
     box-sizing:border-box;
 }
-
-/* BUTTON */
-button{
-    width:100%;
-    height:50px;
-    border:none;
-    border-radius:14px;
-    background:#0d6efd;
-    color:white;
-    font-size:16px;
-    font-weight:600;
-}
     /* GET OTP BUTTON */
 button.get-otp-btn{
     width:100% !important;
