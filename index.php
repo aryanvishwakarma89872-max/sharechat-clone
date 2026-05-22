@@ -244,19 +244,17 @@ id="mainBtn"
 onclick="nextStep()"
 
 style="
-width:100%;
-height:38px;
+width:80%;
+height:45px;
 border:none;
 border-radius:12px;
-font-size:14px;
+font-size:15px;
 font-weight:bold;
 background:#0666ff;
 color:white;
-margin-top:18px;
-cursor:pointer;
-">
-
-Get OTP
+margin:18px auto 0;
+display:block;
+"
 
 </button>
     
