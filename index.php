@@ -255,7 +255,7 @@ color:white;
 margin:18px auto 0;
 display:block;
 "
-
+Get OTP
 </button>
     
 </div>
