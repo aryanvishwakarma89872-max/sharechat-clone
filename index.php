@@ -209,7 +209,7 @@ button.get-otp-btn{
         style="
         width:100%;
         height:45px;
-        border:2px solid orange;
+        border:none;
         border-radius:12px;
         padding-left:18px;
         padding-right:130px;
