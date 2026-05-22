@@ -130,7 +130,7 @@ button {
 <div class="input-box">
 
     <div class="country">
-        🇮🇳+91
+        🇮🇳 +91
     </div>
 
     <div class="phone">
