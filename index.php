@@ -130,7 +130,13 @@ button {
 <div class="input-box">
 
     <div class="country">
-        🇮🇳 +91
+    <select id="countryCode">
+        <option value="+91">🇮🇳 +91</option>
+        <option value="+1">🇺🇸 +1</option>
+        <option value="+44">🇬🇧 +44</option>
+        <option value="+971">🇦🇪 +971</option>
+        <option value="+880">🇧🇩 +880</option>
+    </select>
     </div>
 
     <div class="phone">
