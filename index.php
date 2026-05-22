@@ -112,13 +112,30 @@ p {
 /* OTP INPUT */
 #otp{
     width:100%;
-    height:44px;
-    border:none;
-    border-radius:12px;
-    padding:0 12px;
-    font-size:15px;
+    height:55px;
+
+    border:none !important;
+    outline:none !important;
+    box-shadow:none !important;
+
+    -webkit-appearance:none;
+    appearance:none;
+
+    border-radius:18px;
+
+    padding-left:20px;
+    padding-right:150px;
+
+    font-size:16px;
+    background:#f3f3f3;
+
     box-sizing:border-box;
-    background:#ececec;
+}
+
+#otp:focus{
+    border:none !important;
+    outline:none !important;
+    box-shadow:none !important;
 }
     /* GET OTP BUTTON */
 button.get-otp-btn{
