@@ -130,8 +130,7 @@ button {
 <div class="input-box">
 
     <div class="country">
-        <img src="flag.png">
-        +91
+        🇮🇳+91
     </div>
 
     <div class="phone">
