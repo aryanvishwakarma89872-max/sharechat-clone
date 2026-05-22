@@ -114,6 +114,26 @@ button {
     font-weight: bold;
     color: #5e6f8d;
 }
+    .country{
+    width:110px;
+    height:70px;
+    background:#f3f3f3;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.country select{
+    border:none;
+    background:none;
+    font-size:22px;
+    font-weight:600;
+    color:#555;
+    outline:none;
+    appearance:none;
+    -webkit-appearance:none;
+}
 </style>
 </head>
 <body>
