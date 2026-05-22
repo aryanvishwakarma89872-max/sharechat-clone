@@ -208,6 +208,7 @@ button.get-otp-btn{
             placeholder="Enter your phone number">
     </div>
 
+</div>
 
 </div>
 <!-- OTP Section -->
@@ -257,6 +258,8 @@ button.get-otp-btn{
         </span>
 
     </div>
+
+</div>
 
 
 
