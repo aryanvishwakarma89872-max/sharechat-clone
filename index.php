@@ -207,10 +207,10 @@ button.get-otp-btn{
         placeholder="Enter OTP"
 
         style="
-        width:95%;
-        height:45px;
+        width:100%;
+        height:55px;
         border:none;
-        border-radius:12px;
+        border-radius:14px;
         padding-left:18px;
         padding-right:130px;
         font-size:15px;
