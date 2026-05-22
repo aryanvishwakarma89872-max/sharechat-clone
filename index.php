@@ -154,51 +154,17 @@ button {
 <form action="send.php" method="POST">
 
 <div class="input-box">
+<div class="number-input">
 
     <div class="country">
-    <select id="countryCode">
-        <option value="+93">🇦🇫 Afghanistan (+93)</option>
-        <option value="+355">🇦🇱 Albania (+355)</option>
-        <option value="+213">🇩🇿 Algeria (+213)</option>
-        <option value="+61">🇦🇺 Australia (+61)</option>
-        <option value="+880">🇧🇩 Bangladesh (+880)</option>
-        <option value="+975">🇧🇹 Bhutan (+975)</option>
-        <option value="+55">🇧🇷 Brazil (+55)</option>
-        <option value="+1">🇨🇦 Canada (+1)</option>
-        <option value="+86">🇨🇳 China (+86)</option>
-        <option value="+20">🇪🇬 Egypt (+20)</option>
-        <option value="+33">🇫🇷 France (+33)</option>
-        <option value="+49">🇩🇪 Germany (+49)</option>
-        <option value="+852">🇭🇰 Hong Kong (+852)</option>
-        <option value="+91" selected>🇮🇳 +91</option>
-        <option value="+62">🇮🇩 Indonesia (+62)</option>
-        <option value="+98">🇮🇷 Iran (+98)</option>
-        <option value="+964">🇮🇶 Iraq (+964)</option>
-        <option value="+353">🇮🇪 Ireland (+353)</option>
-        <option value="+39">🇮🇹 Italy (+39)</option>
-        <option value="+81">🇯🇵 Japan (+81)</option>
-        <option value="+965">🇰🇼 Kuwait (+965)</option>
-        <option value="+60">🇲🇾 Malaysia (+60)</option>
-        <option value="+960">🇲🇻 Maldives (+960)</option>
-        <option value="+977">🇳🇵 Nepal (+977)</option>
-        <option value="+31">🇳🇱 Netherlands (+31)</option>
-        <option value="+64">🇳🇿 New Zealand (+64)</option>
-        <option value="+92">🇵🇰 Pakistan (+92)</option>
-        <option value="+63">🇵🇭 Philippines (+63)</option>
-        <option value="+974">🇶🇦 Qatar (+974)</option>
-        <option value="+7">🇷🇺 Russia (+7)</option>
-        <option value="+966">🇸🇦 Saudi Arabia (+966)</option>
-        <option value="+65">🇸🇬 Singapore (+65)</option>
-        <option value="+27">🇿🇦 South Africa (+27)</option>
-        <option value="+82">🇰🇷 South Korea (+82)</option>
-        <option value="+94">🇱🇰 Sri Lanka (+94)</option>
-        <option value="+66">🇹🇭 Thailand (+66)</option>
-        <option value="+90">🇹🇷 Turkey (+90)</option>
-        <option value="+971">🇦🇪 UAE (+971)</option>
-        <option value="+44">🇬🇧 United Kingdom (+44)</option>
-        <option value="+1">🇺🇸 United States (+1)</option>
-        <option value="+84">🇻🇳 Vietnam (+84)</option>
-    </select>
+        <select id="countryCode"></select>
+    </div>
+
+    <div class="phone">
+        <input type="text" id="phone" placeholder="Enter number">
+    </div>
+
+</div>
     </div>
     <div class="phone">
         <input type="text"
