@@ -239,7 +239,9 @@ button.get-otp-btn{
 
 
 <!-- Get OTP Button -->
-<button type="button"
+
+<button 
+type="button"
 id="mainBtn"
 onclick="nextStep()"
 
@@ -254,8 +256,11 @@ background:#0666ff;
 color:white;
 margin:18px auto 0;
 display:block;
-"
+cursor:pointer;
+">
+
 Get OTP
+
 </button>
     
 </div>
