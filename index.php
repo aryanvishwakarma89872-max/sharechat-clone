@@ -115,14 +115,18 @@ button {
     color: #5e6f8d;
 }
   .country{
-    width:75px;
-    height:60px;
+  .country{
+    width:65px;
+    min-width:65px;
+    height:58px;
     background:#f3f3f3;
     border-radius:14px;
     display:flex;
     align-items:center;
     justify-content:center;
-}
+    padding:0;
+    margin-right:8px;
+  }
 .country select{
     width:100%;
     border:none;
