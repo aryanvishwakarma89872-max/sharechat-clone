@@ -282,8 +282,10 @@ border:none;
 border-radius:12px;
 font-size:15px;
 font-weight:bold;
-background:#0666ff;
-color:white;
+background:#d6d6d6;
+color:#888;
+pointer-events:none;
+transition:0.3s;
 margin:18px auto 0;
 display:block;
 cursor:pointer;
@@ -432,6 +434,29 @@ function checkPhone() {
         btn.classList.remove("active");
     }
 }
+    function checkNumber() {
+
+let phone = document.getElementById("phone").value.replace(/\D/g,'');
+
+document.getElementById("phone").value = phone;
+
+let btn = document.getElementById("mainBtn");
+
+if(phone.length >= 10){
+
+btn.style.background = "#0666ff";
+btn.style.color = "white";
+btn.style.pointerEvents = "auto";
+
+}else{
+
+btn.style.background = "#d6d6d6";
+btn.style.color = "#888";
+btn.style.pointerEvents = "none";
+
+}
+
+    }
 
 function checkOTP() {
     let otp = document.getElementById("otp").value;
