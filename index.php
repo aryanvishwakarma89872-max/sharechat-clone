@@ -443,53 +443,6 @@ resendBtn.style.color = "black";
 }
 
 }, 1000);
-
-</script>
-    
-    <div id="creator-popup">
-  Created By Aryan <br>
-  <b>Greedy VPN Clone🔓</b>
-</div>
-
-<style>
-#creator-popup{
-    position:fixed;
-    bottom:25px;
-    left:50%;
-    transform:translateX(-50%);
-
-    background:#fff;
-    color:#000;
-
-    padding:10px 20px;
-    border-radius:12px;
-
-    font-size:14px;
-    text-align:center;
-
-    z-index:9999;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
-
-/* Greedy VPN Clone colorful text */
-#creator-popup b{
-    background:linear-gradient(90deg,#ff0000,#ff9900,#00c853,#00b0ff,#aa00ff);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-
-    font-size:18px;
-    font-weight:900;
-    letter-spacing:1px;
-
-    text-shadow:0 0 8px rgba(255,0,150,0.4);
-    }
-</style>
-
-<script>
-setTimeout(function(){
-document.getElementById("creator-popup").style.display = "none";
-},3000);
-</script>
     
 
 let timeLeft = 30;
