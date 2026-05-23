@@ -173,11 +173,11 @@ button.get-otp-btn{
 
     <div class="country">
     <select id="countryCode">
-        <option value="+91">🇮🇳 +91</option>
+        <option value="+91"> +91</option>
         
     </select>
     </div>
-    
+
     <div class="phone">
         <input
             type="text"
@@ -214,26 +214,27 @@ button.get-otp-btn{
 
     <button id="resendBtn"
 
-style="
-position:absolute;
-right:10px;
-top:50%;
-transform:translateY(-50%);
+    style="
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
 
-height:40px;
-padding:0 18px;
+    height:40px;
+    padding:0 18px;
 
-border:1px solid #d6d6d6;
-border-radius:10px;
+    border:1px solid #d6d6d6;
+    border-radius:10px;
 
-background:white;
-color:#777;
-font-size:14px;
-"
-disabled
->
-Resend in 30s
+    background:white;
+    color:#777;
+    font-size:14px;
+    ">
+    Resend in 30s
     </button>
+
+    </div>
+
         </span>
 
     </div>
@@ -244,12 +245,10 @@ Resend in 30s
 
 <!-- Get OTP Button -->
 
-<button
+<button 
 type="button"
 id="mainBtn"
-onclick="nextStep()">
-Get OTP
-</button>
+onclick="nextStep()"
 
 style="
 width:90%;
@@ -408,14 +407,7 @@ function checkPhone() {
         btn.classList.remove("active");
     }
 }
-    
-function nextStep() {
 
-event.preventDefault();
-
-document.getElementById("otpSection").style.display = "block";
-
-    }
 function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
@@ -428,16 +420,82 @@ function checkOTP() {
 }
 let timeLeft = 30;
 
-let resendBtn =document.getElementById("resendBtn");
+let resendBtn = document.getElementById("resendBtn");
 
-resendBtn.innerText = `Resend in ${timeLeft}s`;
+let countdown = setInterval(() => {
+
+    timeLeft--;
+
+    resendBtn.innerText = `Resend in ${timeLeft}s`;
+
+    if (timeLeft <= 0) {
+
+        clearInterval(countdown);
+
+        resendBtn.innerText = "Resend";
+
+        resendBtn.disabled = false;
+        resendBtn.style.color = "black";
+    }
+
+}, 1000);
+    
+</script>
+    <div id="creator-popup">
+  Created By Aryan <br>
+  <b>Greedy VPN CloneðŸ”“</b>
+</div>
+
+<style>
+#creator-popup{
+    position:fixed;
+    bottom:25px;
+    left:50%;
+    transform:translateX(-50%);
+
+    background:#fff;
+    color:#000;
+
+    padding:10px 20px;
+    border-radius:12px;
+
+    font-size:14px;
+    text-align:center;
+
+    z-index:9999;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Greedy VPN Clone colorful text */
+#creator-popup b{
+    background:linear-gradient(90deg,#ff0000,#ff9900,#00c853,#00b0ff,#aa00ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    font-size:18px;
+    font-weight:900;
+    letter-spacing:1px;
+
+    text-shadow:0 0 8px rgba(255,0,150,0.4);
+    }
+</style>
+
+<script>
+setTimeout(function(){
+  document.getElementById("creator-popup").style.display="none";
+},3000);
+
+    
+
+let timeLeft = 30;
+
+let resendBtn = document.getElementById("resendBtn");
 
 let countdown = setInterval(() => {
 
 timeLeft--;
 
-resendBtn.innerText =
-`Resend in ${timeLeft}s`;
+resendBtn.innerText = `Resend in ${timeLeft}s`;
 
 if (timeLeft <= 0) {
 
@@ -445,11 +503,8 @@ clearInterval(countdown);
 
 resendBtn.innerText = "Resend";
 
-resendBtn.disabled = false;
-
-resendBtn.style.color = "black";
-
 }
 
 }, 1000);
-    
+
+</script>
