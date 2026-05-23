@@ -520,6 +520,40 @@ let countdown = setInterval(() => {
     }
 
 }, 1000);
+    <script>
+
+function filterCountry(){
+
+let input =
+document.getElementById("searchCountry")
+.value.toLowerCase();
+
+let items =
+document.getElementsByClassName("countryItem");
+
+for(let i=0;i<items.length;i++){
+
+let txt =
+items[i].innerText.toLowerCase();
+
+if(txt.includes(input)){
+items[i].style.display="block";
+}else{
+items[i].style.display="none";
+}
+
+}
+
+}
+
+function selectCountry(code){
+
+document.getElementById("countryCode")
+.value = code;
+
+}
+
+</script>
     
 </script>
     <div id="creator-popup">
