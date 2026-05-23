@@ -250,7 +250,7 @@ color:#777;
 font-size:14px;
 ">
 
-Resend in 30sec
+Resend in 30s
 
 </button>
 
