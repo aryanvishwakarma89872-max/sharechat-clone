@@ -83,17 +83,47 @@ p {
 }
 
 /* SELECT */
-.country select{
-    width:100%;
-    height:100%;
-    border:none;
-    outline:none;
-    background:transparent;
-    font-size:15px;
-    font-weight:600;
-    padding:0 10px;
-    appearance:none;
-    -webkit-appearance:none;
+.countryBox{
+width:100%;
+background:#ececec;
+border-radius:14px;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.searchBox{
+padding:10px;
+background:#ececec;
+position:sticky;
+top:0;
+z-index:99;
+}
+
+.searchBox input{
+width:100%;
+height:45px;
+border:none;
+outline:none;
+border-radius:12px;
+padding:0 15px;
+font-size:16px;
+background:white;
+}
+
+.countryList{
+max-height:220px;
+overflow-y:auto;
+}
+
+.countryItem{
+padding:14px 16px;
+font-size:18px;
+border-bottom:1px solid #ddd;
+background:white;
+}
+
+.countryItem:active{
+background:#f2f2f2;
 }
 
 /* PHONE INPUT */
