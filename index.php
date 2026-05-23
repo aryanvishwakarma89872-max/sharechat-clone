@@ -273,6 +273,7 @@ Resend in 30s
 <button 
 type="button"
 id="mainBtn"
+    disabled
 onclick="nextStep()"
 
 style="
@@ -437,13 +438,15 @@ function checkPhone() {
     
 function checkNumber() {
 
-let phone = document.getElementById("phone").value.replace(/\D/g,'');
-
-document.getElementById("phone").value = phone;
-
+let phone = document.getElementById("phone").value;
 let btn = document.getElementById("mainBtn");
 
-if(phone.length >= 10){
+/* only numbers */
+phone = phone.replace(/\D/g,'');
+document.getElementById("phone").value = phone;
+
+/* button active only on 10 digits */
+if(phone.length == 10){
 
 btn.style.background = "#0666ff";
 btn.style.color = "white";
@@ -458,6 +461,7 @@ btn.style.pointerEvents = "none";
 }
 
 }
+    
 function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
