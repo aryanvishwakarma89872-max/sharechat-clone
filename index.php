@@ -241,7 +241,7 @@ padding:0 18px;
 
 border:none;
 outline:none;
-
+border:1px solid #999;
 border-radius:10px;
 
 background:#f3f3f3;
