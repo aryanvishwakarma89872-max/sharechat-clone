@@ -209,28 +209,28 @@ button.get-otp-btn{
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
-    <div style="position:relative; width:100%;">
+    <div style="position:relative; width:90%; margin:auto;">
 
-<input type="tel"
+<input
+type="tel"
 id="otp"
 maxlength="6"
 placeholder="Enter OTP"
+
 oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,6); checkOTP()"
->
 
-    style="
-    width:100%;
-    height:55px;
-    border:none;
-    border-radius:18px;
-    padding-left:20px;
-    padding-right:150px;
-    font-size:16px;
-    background:#f3f3f3;
-    box-sizing:border-box;
-    ">
+style="
+width:100%;
+height:55px;
+border:none;
+border-radius:18px;
+padding-left:20px;
+padding-right:150px;
+font-size:16px;
+background:#f3f3f3;
+box-sizing:border-box;
+">
 
-    <button id="resendBtn"
 <button id="resendBtn"
 
 style="
@@ -242,8 +242,6 @@ transform:translateY(-50%);
 height:40px;
 padding:0 18px;
 
-border:none;
-outline:none;
 border:1px solid #999;
 border-radius:10px;
 
@@ -251,8 +249,10 @@ background:#f3f3f3;
 color:#777;
 font-size:14px;
 ">
-  Resend in 30s
-    </button>
+
+Resend in 30sec
+
+</button>
 
     </div>
 
