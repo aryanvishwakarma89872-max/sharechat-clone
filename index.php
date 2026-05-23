@@ -406,7 +406,12 @@ function checkPhone() {
         btn.classList.remove("active");
     }
 }
+    
+function nextStep() {
 
+document.getElementById("otpSection").style.display = "block";
+
+    }
 function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
