@@ -171,10 +171,13 @@ button.get-otp-btn{
 
 <div class="input-box">
 
-    <div class="country">
-    <select id="countryCode">
-        <option value="+91">🇮🇳 +91</option>
-        <select>
+    <div class="country"
+onclick="openCountry()"
+id="selectedCountry">
+
+🇮🇳 +91
+
+    </div>
 
 <option value="+91">🇮🇳 +91</option>
 <option value="+1">🇺🇸 +1</option>
@@ -520,7 +523,7 @@ let countdown = setInterval(() => {
 </script>
     <div id="creator-popup">
   Created By Aryan <br>
-  <b>Greedy VPN CloneðŸ”“</b>
+  <b>Greedy VPN Clone🔓</b>
 </div>
 
 <style>
