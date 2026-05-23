@@ -197,18 +197,31 @@ id="selectedCountry">
 <option value="+60">🇲🇾 +60 Malaysia</option>
 <option value="+977">🇳🇵 +977 Nepal</option>
 <option value="+92">🇵🇰 +92
+<option value="+7">🇷🇺 +7 Russia</option>
+<option value="+966">🇸🇦 +966 Saudi Arabia</option>
+<option value="+65">🇸🇬 +65 Singapore</option>
+<option value="+94">🇱🇰 +94 Sri Lanka</option>
+<option value="+41">🇨🇭 +41 Switzerland</option>
+<option value="+90">🇹🇷 +90 Turkey</option>
+<option value="+380">🇺🇦 +380 Ukraine</option>
+<option value="+84">🇻🇳 +84 Vietnam</option>
+<option value="+27">🇿🇦 +27 South Africa</option>
+
+</select>
 
 </div>
 
+<div class="phone">
+<input
+type="text"
+name="number"
+id="phone"
+oninput="checkPhone()"
+maxlength="12"
+placeholder="Enter your phone number">
 </div>
-<!-- OTP Section -->
-<div id="otpSection" style="display:none; margin-top:10px;">
 
-    <div style="position:relative; width:100%;">
-
-    <input type="text"
-    id="otp"
-    placeholder="Enter OTP"
+</div>
 
     style="
     width:100%;
