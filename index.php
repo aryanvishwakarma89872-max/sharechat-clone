@@ -171,26 +171,63 @@ button.get-otp-btn{
 
 <div class="input-box">
 
-    <div class="country">
-    <select id="countryCode">
-        <option value="+91">🇮🇳 +91</option>
-        <option value="+1">🇺🇸 +1 USA</option>
-<option value="+44">🇬🇧 +44 UK</option>
-<option value="+971">🇦🇪 +971 UAE</option>
-<option value="+61">🇦🇺 +61 Australia</option>
-<option value="+880">🇧🇩 +880 Bangladesh</option>
-<option value="+975">🇧🇹 +975 Bhutan</option>
-<option value="+55">🇧🇷 +55 Brazil</option>
-<option value="+86">🇨🇳 +86 China</option>
-<option value="+49">🇩🇪 +49 Germany</option>
-<option value="+33">🇫🇷 +33 France</option>
-<option value="+39">🇮🇹 +39 Italy</option>
-<option value="+81">🇯🇵 +81 Japan</option>
-<option value="+60">🇲🇾 +60 Malaysia</option>
-<option value="+977">🇳🇵 +977 Nepal</option>
-<option value="+92">🇵🇰 +92>
-    </select>
-    </div>
+<div class="countryBox">
+
+<div class="searchBox">
+<input 
+type="text"
+id="searchCountry"
+placeholder="Search Country"
+onkeyup="filterCountry()">
+</div>
+
+<div class="countryList" id="countryList">
+
+<div class="countryItem"
+onclick="selectCountry('🇮🇳 +91')">
+🇮🇳 +91 India
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇺🇸 +1')">
+🇺🇸 +1 USA
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇬🇧 +44')">
+🇬🇧 +44 UK
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇦🇪 +971')">
+🇦🇪 +971 UAE
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇦🇺 +61')">
+🇦🇺 +61 Australia
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇧🇩 +880')">
+🇧🇩 +880 Bangladesh
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇯🇵 +81')">
+🇯🇵 +81 Japan
+</div>
+
+<div class="countryItem"
+onclick="selectCountry('🇳🇵 +977')">
+🇳🇵 +977 Nepal
+</div>
+
+</div>
+
+<input type="hidden" id="countryCode" value="+91">
+
+</div>
 
     <div class="phone">
         <input
