@@ -173,7 +173,7 @@ button.get-otp-btn{
 
     <div class="country">
     <select id="countryCode">
-        <option value="+91">ðŸ‡®ðŸ‡³ +91</option>
+        <option value="+91">🇮🇳 +91</option>
         <option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
         <option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
         <option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
@@ -1010,4 +1010,3 @@ let countdown = setInterval(() => {
 setTimeout(function(){
   document.getElementById("creator-popup").style.display="none";
 },3000);
-</script>
