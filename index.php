@@ -173,7 +173,7 @@ button.get-otp-btn{
 
     <div class="country">
     <select id="countryCode">
-        <option value="+91"> +91</option>
+        <option value="+91">🇮🇳 +91</option>
         <select>
 
 <option value="+91">🇮🇳 +91</option>
