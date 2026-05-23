@@ -198,16 +198,10 @@ button.get-otp-btn{
 type="tel"
 name="number"
 id="phone"
-
 maxlength="10"
-
 placeholder="Enter your phone number"
-
-oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,12); checkPhone()"
->
+oninput="checkNumber()">
     </div>
-
-</div>
 
 </div>
 <!-- OTP Section -->
