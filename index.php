@@ -197,8 +197,7 @@ HTML me .country ke andar ye rakho:
 <option value="+81">🇯🇵 +81</option>
 <option value="+60">🇲🇾 +60</option>
 <option value="+977">🇳🇵 +977</option>
-<option value="+92">🇵🇰 +92</option>
-        
+<option value="+92">🇵🇰 +92</option>      
     </select>
     </div>
 
