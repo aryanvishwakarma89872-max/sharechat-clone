@@ -228,24 +228,27 @@ button.get-otp-btn{
     ">
 
     <button id="resendBtn"
+<button id="resendBtn"
 
-    style="
-    position:absolute;
-    right:10px;
-    top:50%;
-    transform:translateY(-50%);
+style="
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
 
-    height:40px;
-    padding:0 18px;
+height:40px;
+padding:0 18px;
 
-    border:1px solid #d6d6d6;
-    border-radius:10px;
+border:none;
+outline:none;
 
-    background:white;
-    color:#777;
-    font-size:14px;
-    ">
-    Resend in 30s
+border-radius:10px;
+
+background:#f3f3f3;
+color:#777;
+font-size:14px;
+">
+  Resend in 30s
     </button>
 
     </div>
