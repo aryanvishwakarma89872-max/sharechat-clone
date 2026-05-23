@@ -211,9 +211,12 @@ button.get-otp-btn{
 
     <div style="position:relative; width:100%;">
 
-    <input type="text"
-    id="otp"
-    placeholder="Enter OTP"
+<input type="tel"
+id="otp"
+maxlength="6"
+placeholder="Enter OTP"
+oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,6); checkOTP()"
+>
 
     style="
     width:100%;
