@@ -170,15 +170,6 @@ button.get-otp-btn{
 <form action="send.php" method="POST">
 
 <div class="input-box">
-
-    <div class="country">
-    <select id="countryCode">
-        Contry code
-
-Country code wale box ko clickable dropdown banana hai to ye code use karo 👇
-
-HTML me .country ke andar ye rakho:
-
 <div class="country">
 
 <select id="countryCode">
@@ -197,9 +188,10 @@ HTML me .country ke andar ye rakho:
 <option value="+81">🇯🇵 +81</option>
 <option value="+60">🇲🇾 +60</option>
 <option value="+977">🇳🇵 +977</option>
-<option value="+92">🇵🇰 +92</option>      
-    </select>
-    </div>
+<option value="+92">🇵🇰 +92</option>
+</select>
+
+</div>
 
     <div class="phone">
         <input
