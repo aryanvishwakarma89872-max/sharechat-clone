@@ -448,32 +448,6 @@ let resendBtn = document.getElementById("resendBtn");
 
 let countdown = setInterval(() => {
 
-    timeLeft--;
-
-    resendBtn.innerText = `Resend in ${timeLeft}s`;
-
-    if (timeLeft <= 0) {
-
-        clearInterval(countdown);
-
-        resendBtn.innerText = "Resend";
-
-        resendBtn.disabled = false;
-        resendBtn.style.color = "black";
-    }
-
-}, 1000);
-    
-</script>
-
-    
-
-let timeLeft = 30;
-
-let resendBtn = document.getElementById("resendBtn");
-
-let countdown = setInterval(() => {
-
 timeLeft--;
 
 resendBtn.innerText = `Resend in ${timeLeft}s`;
