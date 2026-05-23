@@ -214,7 +214,7 @@ type="tel"
 id="otp"
 maxlength="6"
 placeholder="Enter OTP"
-oninput="checkOTP()">
+oninput="checkOTP()"
 
 style="
 width:100%;
