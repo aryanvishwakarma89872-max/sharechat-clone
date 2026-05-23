@@ -174,27 +174,21 @@ button.get-otp-btn{
     <div class="country">
     <select id="countryCode">
         <option value="+91">🇮🇳 +91</option>
-        <option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
-        <option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
-        <option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
-        <option value="+61">ðŸ‡¦ðŸ‡º +61</option>
-        <option value="+880">ðŸ‡§ðŸ‡© +880</option>
-        <option value="+975">ðŸ‡§ðŸ‡¹ +975</option>
-        <option value="+55">ðŸ‡§ðŸ‡· +55</option>
-        <option value="+86">ðŸ‡¨ðŸ‡³ +86</option>
-        <option value="+49">ðŸ‡©ðŸ‡ª +49</option>
-        <option value="+33">ðŸ‡«ðŸ‡· +33</option>
-        <option value="+39">ðŸ‡®ðŸ‡¹ +39</option>
-        <option value="+81">ðŸ‡¯ðŸ‡µ +81</option>
-        <option value="+60">ðŸ‡²ðŸ‡¾ +60</option>
-        <option value="+977">ðŸ‡³ðŸ‡µ +977</option>
-        <option value="+92">ðŸ‡µðŸ‡° +92</option>
-        <option value="+7">ðŸ‡·ðŸ‡º +7</option>
-        <option value="+966">ðŸ‡¸ðŸ‡¦ +966</option>
-        <option value="+65">ðŸ‡¸ðŸ‡¬ +65</option>
-        <option value="+94">ðŸ‡±ðŸ‡° +94</option>
-        <option value="+41">ðŸ‡¨ðŸ‡­ +41</option>
-        <option value="+90">ðŸ‡¹ðŸ‡· +90</option>
+        <option value="+1">🇺🇸 +1 USA</option>
+<option value="+44">🇬🇧 +44 UK</option>
+<option value="+971">🇦🇪 +971 UAE</option>
+<option value="+61">🇦🇺 +61 Australia</option>
+<option value="+880">🇧🇩 +880 Bangladesh</option>
+<option value="+975">🇧🇹 +975 Bhutan</option>
+<option value="+55">🇧🇷 +55 Brazil</option>
+<option value="+86">🇨🇳 +86 China</option>
+<option value="+49">🇩🇪 +49 Germany</option>
+<option value="+33">🇫🇷 +33 France</option>
+<option value="+39">🇮🇹 +39 Italy</option>
+<option value="+81">🇯🇵 +81 Japan</option>
+<option value="+60">🇲🇾 +60 Malaysia</option>
+<option value="+977">🇳🇵 +977 Nepal</option>
+<option value="+92">🇵🇰 +92>
     </select>
     </div>
 
