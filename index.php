@@ -195,12 +195,16 @@ button.get-otp-btn{
 
     <div class="phone">
         <input
-            type="text"
-            name="number"
-            id="phone"
-            oninput="checkPhone()"
-            maxlength="12"
-            placeholder="Enter your phone number">
+type="tel"
+name="number"
+id="phone"
+
+maxlength="10"
+
+placeholder="Enter your phone number"
+
+oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,12); checkPhone()"
+>
     </div>
 
 </div>
