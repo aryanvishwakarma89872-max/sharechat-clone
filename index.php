@@ -214,8 +214,7 @@ type="tel"
 id="otp"
 maxlength="6"
 placeholder="Enter OTP"
-
-oninput="this.value=this.value.replace(/[^0-9]/g,'').slice(0,6); checkOTP()"
+oninput="checkOTP()">
 
 style="
 width:100%;
@@ -459,15 +458,33 @@ btn.disabled = true;
 }
     
 function checkOTP() {
-    let otp = document.getElementById("otp").value;
-    let btn = document.getElementById("mainBtn");
 
-    if (otp.length == 6) {
-        btn.classList.add("active");
-    } else {
-        btn.classList.remove("active");
-    }
+let otp = document.getElementById("otp").value;
+let btn = document.getElementById("verifyBtn");
+
+/* only numbers */
+otp = otp.replace(/\D/g,'');
+document.getElementById("otp").value = otp;
+
+/* button active only on 6 digits */
+if(otp.length == 6){
+
+btn.style.background = "#0666ff";
+btn.style.color = "white";
+btn.style.pointerEvents = "auto";
+btn.disabled = false;
+
+}else{
+
+btn.style.background = "#d6d6d6";
+btn.style.color = "#888";
+btn.style.pointerEvents = "none";
+btn.disabled = true;
+
 }
+
+    }
+    
 let timeLeft = 30;
 
 let resendBtn = document.getElementById("resendBtn");
