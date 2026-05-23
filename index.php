@@ -487,9 +487,9 @@ resendBtn.style.color = "black";
 
 <script>
 setTimeout(function(){
-  document.getElementById("creator-popup").style.display="none";
+document.getElementById("creator-popup").style.display = "none";
 },3000);
-
+</script>
     
 
 let timeLeft = 30;
