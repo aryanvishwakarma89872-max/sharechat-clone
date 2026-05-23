@@ -201,64 +201,13 @@ button.get-otp-btn{
 
 <div class="input-box">
 
-<div class="countryBox">
-
-<div class="searchBox">
-<input 
-type="text"
-id="searchCountry"
-placeholder="Search Country"
-onkeyup="filterCountry()">
-</div>
-
-<div class="countryList" id="countryList">
-
-<div class="countryItem"
-onclick="selectCountry('🇮🇳 +91')">
-🇮🇳 +91 India
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇺🇸 +1')">
-🇺🇸 +1 USA
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇬🇧 +44')">
-🇬🇧 +44 UK
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇦🇪 +971')">
-🇦🇪 +971 UAE
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇦🇺 +61')">
-🇦🇺 +61 Australia
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇧🇩 +880')">
-🇧🇩 +880 Bangladesh
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇯🇵 +81')">
-🇯🇵 +81 Japan
-</div>
-
-<div class="countryItem"
-onclick="selectCountry('🇳🇵 +977')">
-🇳🇵 +977 Nepal
-</div>
-
-</div>
-
-<input type="hidden" id="countryCode" value="+91">
-
-</div>
-
+    <div class="country">
+    <select id="countryCode">
+        <option value="+91">🇮🇳 +91</option>
+        
+    </select>
+    </div>
+    
     <div class="phone">
         <input
             type="text"
@@ -520,38 +469,6 @@ let countdown = setInterval(() => {
     }
 
 }, 1000);
-    <script>
-
-function filterCountry(){
-
-let input =
-document.getElementById("searchCountry")
-.value.toLowerCase();
-
-let items =
-document.getElementsByClassName("countryItem");
-
-for(let i=0;i<items.length;i++){
-
-let txt =
-items[i].innerText.toLowerCase();
-
-if(txt.includes(input)){
-items[i].style.display="block";
-}else{
-items[i].style.display="none";
-}
-
-}
-
-}
-
-function selectCountry(code){
-
-document.getElementById("countryCode")
-.value = code;
-
-}
 
 </script>
     
