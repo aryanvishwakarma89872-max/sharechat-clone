@@ -211,15 +211,15 @@ id="selectedCountry">
 
 </div>
 
-<div class="phone">
-<input
-type="text"
-name="number"
-id="phone"
-oninput="checkPhone()"
-maxlength="12"
-placeholder="Enter your phone number">
-</div>
+   <div class="phone">
+        <input
+            type="text"
+            name="number"
+            id="phone"
+            oninput="checkPhone()"
+            maxlength="12"
+            placeholder="Enter your phone number">
+   </div>
 
 </div>
 
