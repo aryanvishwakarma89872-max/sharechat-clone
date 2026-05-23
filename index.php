@@ -171,47 +171,34 @@ button.get-otp-btn{
 
 <div class="input-box">
 
-<div class="country"
-onclick="openCountry()"
-id="selectedCountry">
+    <div class="country">
+    <select id="countryCode">
+        <option value="+91">🇮🇳 +91</option>
+        <option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
+        <option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
+        <option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
+        <option value="+61">ðŸ‡¦ðŸ‡º +61</option>
+        <option value="+880">ðŸ‡§ðŸ‡© +880</option>
+        <option value="+975">ðŸ‡§ðŸ‡¹ +975</option>
+        <option value="+55">ðŸ‡§ðŸ‡· +55</option>
+        <option value="+86">ðŸ‡¨ðŸ‡³ +86</option>
+        <option value="+49">ðŸ‡©ðŸ‡ª +49</option>
+        <option value="+33">ðŸ‡«ðŸ‡· +33</option>
+        <option value="+39">ðŸ‡®ðŸ‡¹ +39</option>
+        <option value="+81">ðŸ‡¯ðŸ‡µ +81</option>
+        <option value="+60">ðŸ‡²ðŸ‡¾ +60</option>
+        <option value="+977">ðŸ‡³ðŸ‡µ +977</option>
+        <option value="+92">ðŸ‡µðŸ‡° +92</option>
+        <option value="+7">ðŸ‡·ðŸ‡º +7</option>
+        <option value="+966">ðŸ‡¸ðŸ‡¦ +966</option>
+        <option value="+65">ðŸ‡¸ðŸ‡¬ +65</option>
+        <option value="+94">ðŸ‡±ðŸ‡° +94</option>
+        <option value="+41">ðŸ‡¨ðŸ‡­ +41</option>
+        <option value="+90">ðŸ‡¹ðŸ‡· +90</option>
+    </select>
+    </div>
 
-🇮🇳 +91
-
-</div>
-
-<select id="countryCode" style="display:none;">
-
-<option value="+91">🇮🇳 +91 India</option>
-<option value="+1">🇺🇸 +1 USA</option>
-<option value="+44">🇬🇧 +44 UK</option>
-<option value="+971">🇦🇪 +971 UAE</option>
-<option value="+61">🇦🇺 +61 Australia</option>
-<option value="+880">🇧🇩 +880 Bangladesh</option>
-<option value="+975">🇧🇹 +975 Bhutan</option>
-<option value="+55">🇧🇷 +55 Brazil</option>
-<option value="+86">🇨🇳 +86 China</option>
-<option value="+49">🇩🇪 +49 Germany</option>
-<option value="+33">🇫🇷 +33 France</option>
-<option value="+39">🇮🇹 +39 Italy</option>
-<option value="+81">🇯🇵 +81 Japan</option>
-<option value="+60">🇲🇾 +60 Malaysia</option>
-<option value="+977">🇳🇵 +977 Nepal</option>
-<option value="+92">🇵🇰 +92
-<option value="+7">🇷🇺 +7 Russia</option>
-<option value="+966">🇸🇦 +966 Saudi Arabia</option>
-<option value="+65">🇸🇬 +65 Singapore</option>
-<option value="+94">🇱🇰 +94 Sri Lanka</option>
-<option value="+41">🇨🇭 +41 Switzerland</option>
-<option value="+90">🇹🇷 +90 Turkey</option>
-<option value="+380">🇺🇦 +380 Ukraine</option>
-<option value="+84">🇻🇳 +84 Vietnam</option>
-<option value="+27">🇿🇦 +27 South Africa</option>
-
-</select>
-
-</div>
-
-   <div class="phone">
+    <div class="phone">
         <input
             type="text"
             name="number"
@@ -219,9 +206,19 @@ id="selectedCountry">
             oninput="checkPhone()"
             maxlength="12"
             placeholder="Enter your phone number">
-   </div>
+    </div>
 
 </div>
+
+</div>
+<!-- OTP Section -->
+<div id="otpSection" style="display:none; margin-top:10px;">
+
+    <div style="position:relative; width:100%;">
+
+    <input type="text"
+    id="otp"
+    placeholder="Enter OTP"
 
     style="
     width:100%;
@@ -466,7 +463,7 @@ let countdown = setInterval(() => {
 </script>
     <div id="creator-popup">
   Created By Aryan <br>
-  <b>Greedy VPN Clone🔓</b>
+  <b>Greedy VPN CloneðŸ”“</b>
 </div>
 
 <style>
@@ -507,3 +504,27 @@ let countdown = setInterval(() => {
 setTimeout(function(){
   document.getElementById("creator-popup").style.display="none";
 },3000);
+
+    
+
+let timeLeft = 30;
+
+let resendBtn = document.getElementById("resendBtn");
+
+let countdown = setInterval(() => {
+
+timeLeft--;
+
+resendBtn.innerText = `Resend in ${timeLeft}s`;
+
+if (timeLeft <= 0) {
+
+clearInterval(countdown);
+
+resendBtn.innerText = "Resend";
+
+}
+
+}, 1000);
+
+</script>
