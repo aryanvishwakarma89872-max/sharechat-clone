@@ -451,12 +451,14 @@ if(phone.length == 10){
 btn.style.background = "#0666ff";
 btn.style.color = "white";
 btn.style.pointerEvents = "auto";
+btn.disabled = false;
 
 }else{
 
 btn.style.background = "#d6d6d6";
 btn.style.color = "#888";
 btn.style.pointerEvents = "none";
+btn.disabled = true;
 
 }
 
