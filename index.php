@@ -420,23 +420,31 @@ function checkOTP() {
 }
 let timeLeft = 30;
 
-let resendBtn = document.getElementById("resendBtn");
+let timeLeft = 30;
+
+let resendBtn =
+document.getElementById("resendBtn");
+
+resendBtn.innerText = `Resend in ${timeLeft}s`;
 
 let countdown = setInterval(() => {
 
-    timeLeft--;
+timeLeft--;
 
-    resendBtn.innerText = `Resend in ${timeLeft}s`;
+resendBtn.innerText =
+`Resend in ${timeLeft}s`;
 
-    if (timeLeft <= 0) {
+if (timeLeft <= 0) {
 
-        clearInterval(countdown);
+clearInterval(countdown);
 
-        resendBtn.innerText = "Resend";
+resendBtn.innerText = "Resend";
 
-        resendBtn.disabled = false;
-        resendBtn.style.color = "black";
-    }
+resendBtn.disabled = false;
+
+resendBtn.style.color = "black";
+
+}
 
 }, 1000);
 
