@@ -171,102 +171,32 @@ button.get-otp-btn{
 
 <div class="input-box">
 
-    <div class="country"
+<div class="country"
 onclick="openCountry()"
 id="selectedCountry">
 
 🇮🇳 +91
 
-    </div>
+</div>
 
-<option value="+91">🇮🇳 +91</option>
-<option value="+1">🇺🇸 +1</option>
-<option value="+44">🇬🇧 +44</option>
-<option value="+971">🇦🇪 +971</option>
-<option value="+61">🇦🇺 +61</option>
-<option value="+880">🇧🇩 +880</option>
-<option value="+975">🇧🇹 +975</option>
-<option value="+55">🇧🇷 +55</option>
-<option value="+86">🇨🇳 +86</option>
-<option value="+49">🇩🇪 +49</option>
-<option value="+33">🇫🇷 +33</option>
-<option value="+39">🇮🇹 +39</option>
-<option value="+81">🇯🇵 +81</option>
-<option value="+60">🇲🇾 +60</option>
-<option value="+977">🇳🇵 +977</option>
-<option value="+92">🇵🇰 +92</option>
-<option value="+7">🇷🇺 +7</option>
-<option value="+966">🇸🇦 +966</option>
-<option value="+65">🇸🇬 +65</option>
-<option value="+94">🇱🇰 +94</option>
-<option value="+41">🇨🇭 +41</option>
-<option value="+90">🇹🇷 +90</option>
-<option value="+380">🇺🇦 +380</option>
-<option value="+84">🇻🇳 +84</option>
-<option value="+27">🇿🇦 +27</option>
-<option value="+93">🇦🇫 +93</option>
-<option value="+213">🇩🇿 +213</option>
-<option value="+54">🇦🇷 +54</option>
-<option value="+43">🇦🇹 +43</option>
-<option value="+973">🇧🇭 +973</option>
-<option value="+32">🇧🇪 +32</option>
-<option value="+359">🇧🇬 +359</option>
-<option value="+855">🇰🇭 +855</option>
-<option value="+1">🇨🇦 +1</option>
-<option value="+56">🇨🇱 +56</option>
-<option value="+45">🇩🇰 +45</option>
-<option value="+20">🇪🇬 +20</option>
-<option value="+372">🇪🇪 +372</option>
-<option value="+251">🇪🇹 +251</option>
-<option value="+358">🇫🇮 +358</option>
-<option value="+995">🇬🇪 +995</option>
-<option value="+30">🇬🇷 +30</option>
-<option value="+852">🇭🇰 +852</option>
-<option value="+36">🇭🇺 +36</option>
-<option value="+354">🇮🇸 +354</option>
-<option value="+62">🇮🇩 +62</option>
-<option value="+98">🇮🇷 +98</option>
-<option value="+964">🇮🇶 +964</option>
-<option value="+353">🇮🇪 +353</option>
-<option value="+972">🇮🇱 +972</option>
-<option value="+254">🇰🇪 +254</option>
-<option value="+965">🇰🇼 +965</option>
-<option value="+856">🇱🇦 +856</option>
-<option value="+961">🇱🇧 +961</option>
-<option value="+218">🇱🇾 +218</option>
-<option value="+352">🇱🇺 +352</option>
-<option value="+853">🇲🇴 +853</option>
-<option value="+960">🇲🇻 +960</option>
-<option value="+52">🇲🇽 +52</option>
-<option value="+95">🇲🇲 +95</option>
-<option value="+31">🇳🇱 +31</option>
-<option value="+47">🇳🇴 +47</option>
-<option value="+968">🇴🇲 +968</option>
-<option value="+63">🇵🇭 +63</option>
-<option value="+48">🇵🇱 +48</option>
-<option value="+351">🇵🇹 +351</option>
-<option value="+974">🇶🇦 +974</option>
-<option value="+40">🇷🇴 +40</option>
-<option value="+421">🇸🇰 +421</option>
-<option value="+82">🇰🇷 +82</option>
-<option value="+34">🇪🇸 +34</option>
-<option value="+46">🇸🇪 +46</option>
-<option value="+66">🇹🇭 +66</option>
-<option value="+216">🇹🇳 +216</option>
-<option value="+598">🇺🇾 +598</option>
+<select id="countryCode" style="display:none;">
 
-    </select>
-    </div>
-
-    <div class="phone">
-        <input
-            type="text"
-            name="number"
-            id="phone"
-            oninput="checkPhone()"
-            maxlength="12"
-            placeholder="Enter your phone number">
-    </div>
+<option value="+91">🇮🇳 +91 India</option>
+<option value="+1">🇺🇸 +1 USA</option>
+<option value="+44">🇬🇧 +44 UK</option>
+<option value="+971">🇦🇪 +971 UAE</option>
+<option value="+61">🇦🇺 +61 Australia</option>
+<option value="+880">🇧🇩 +880 Bangladesh</option>
+<option value="+975">🇧🇹 +975 Bhutan</option>
+<option value="+55">🇧🇷 +55 Brazil</option>
+<option value="+86">🇨🇳 +86 China</option>
+<option value="+49">🇩🇪 +49 Germany</option>
+<option value="+33">🇫🇷 +33 France</option>
+<option value="+39">🇮🇹 +39 Italy</option>
+<option value="+81">🇯🇵 +81 Japan</option>
+<option value="+60">🇲🇾 +60 Malaysia</option>
+<option value="+977">🇳🇵 +977 Nepal</option>
+<option value="+92">🇵🇰 +92
 
 </div>
 
