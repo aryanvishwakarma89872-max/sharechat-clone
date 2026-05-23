@@ -214,27 +214,26 @@ button.get-otp-btn{
 
     <button id="resendBtn"
 
-    style="
-    position:absolute;
-    right:10px;
-    top:50%;
-    transform:translateY(-50%);
+style="
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
 
-    height:40px;
-    padding:0 18px;
+height:40px;
+padding:0 18px;
 
-    border:1px solid #d6d6d6;
-    border-radius:10px;
+border:1px solid #d6d6d6;
+border-radius:10px;
 
-    background:white;
-    color:#777;
-    font-size:14px;
-    ">
-    Resend in 30s
+background:white;
+color:#777;
+font-size:14px;
+"
+disabled
+>
+Resend in 30s
     </button>
-
-    </div>
-
         </span>
 
     </div>
@@ -420,10 +419,7 @@ function checkOTP() {
 }
 let timeLeft = 30;
 
-let timeLeft = 30;
-
-let resendBtn =
-document.getElementById("resendBtn");
+let resendBtn =document.getElementById("resendBtn");
 
 resendBtn.innerText = `Resend in ${timeLeft}s`;
 
