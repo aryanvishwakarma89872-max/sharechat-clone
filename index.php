@@ -555,10 +555,9 @@ document.getElementById("countryCode")
 
 </script>
     
-</script>
     <div id="creator-popup">
   Created By Aryan <br>
-  <b>Greedy VPN CloneðŸ”“</b>
+  <b>Greedy VPN Clone🔓</b>
 </div>
 
 <style>
