@@ -244,10 +244,12 @@ Resend in 30s
 
 <!-- Get OTP Button -->
 
-<button 
+<button
 type="button"
 id="mainBtn"
-onclick="nextStep()"
+onclick="nextStep()">
+Get OTP
+</button>
 
 style="
 width:90%;
@@ -408,6 +410,8 @@ function checkPhone() {
 }
     
 function nextStep() {
+
+event.preventDefault();
 
 document.getElementById("otpSection").style.display = "block";
 
