@@ -434,7 +434,8 @@ function checkPhone() {
         btn.classList.remove("active");
     }
 }
-    function checkNumber() {
+    
+function checkNumber() {
 
 let phone = document.getElementById("phone").value.replace(/\D/g,'');
 
@@ -456,8 +457,7 @@ btn.style.pointerEvents = "none";
 
 }
 
-    }
-
+}
 function checkOTP() {
     let otp = document.getElementById("otp").value;
     let btn = document.getElementById("mainBtn");
