@@ -168,12 +168,13 @@ button.get-otp-btn{
 <p>Login for an amazing experience</p>
 
 <form action="send.php" method="POST">
+
 <div class="input-box">
 <div class="country">
 
 <select id="countryCode">
 <option value="+91">🇮🇳 +91</option>
-<option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
+<option value="+1">🇺🇸 +1</option>
 <option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
 <option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
 <option value="+61">ðŸ‡¦ðŸ‡º +61</option>
@@ -374,7 +375,6 @@ let otpShown = false;
 function nextStep() {
 
     let phone = document.getElementById("phone").value;
-    document.getElementById("editBtn").style.display = "block";
 
     if (!otpShown) {
 
@@ -453,21 +453,6 @@ btn.disabled = true;
 }
 
 }
-    function editNumber(){
-
-document.getElementById("phone").value = "";
-document.getElementById("phone").focus();
-document.getElementById("editBtn").style.display = "none";
-
-/* button disable again */
-let btn = document.getElementById("mainBtn");
-
-btn.style.background = "#d6d6d6";
-btn.style.color = "#888";
-btn.style.pointerEvents = "none";
-btn.disabled = true;
-
-                        }
     
 function checkOTP() {
 
