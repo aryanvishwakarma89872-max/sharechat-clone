@@ -168,92 +168,39 @@ button.get-otp-btn{
 <p>Login for an amazing experience</p>
 
 <form action="send.php" method="POST">
+<div class="input-box">
+<div class="country">
 
-<div style="display:flex; gap:10px; margin-top:20px;">
-<div style="
-width:90px;
-height:55px;
-background:#f3f3f3;
-border-radius:18px;
-display:flex;
-align-items:center;
-justify-content:center;
-overflow:hidden;
-">
-
-<select id="countryCode" style="
-width:100%;
-height:100%;
-border:none;
-background:transparent;
-font-size:16px;
-font-weight:bold;
-outline:none;
-padding-left:8px;
-">
-
+<select id="countryCode">
 <option value="+91">🇮🇳 +91</option>
-<option value="+1">🇺🇸 +1</option>
-<option value="+44">🇬🇧 +44</option>
-<option value="+971">🇦🇪 +971</option>
-<option value="+61">🇦🇺 +61</option>
-<option value="+880">🇧🇩 +880</option>
-<option value="+975">🇧🇹 +975</option>
-<option value="+55">🇧🇷 +55</option>
-<option value="+86">🇨🇳 +86</option>
-<option value="+49">🇩🇪 +49</option>
-<option value="+33">🇫🇷 +33</option>
-<option value="+39">🇮🇹 +39</option>
-<option value="+81">🇯🇵 +81</option>
-<option value="+60">🇲🇾 +60</option>
-<option value="+977">🇳🇵 +977</option>
-<option value="+92">🇵🇰 +92</option>
-
+<option value="+1">ðŸ‡ºðŸ‡¸ +1</option>
+<option value="+44">ðŸ‡¬ðŸ‡§ +44</option>
+<option value="+971">ðŸ‡¦ðŸ‡ª +971</option>
+<option value="+61">ðŸ‡¦ðŸ‡º +61</option>
+<option value="+880">ðŸ‡§ðŸ‡© +880</option>
+<option value="+975">ðŸ‡§ðŸ‡¹ +975</option>
+<option value="+55">ðŸ‡§ðŸ‡· +55</option>
+<option value="+86">ðŸ‡¨ðŸ‡³ +86</option>
+<option value="+49">ðŸ‡©ðŸ‡ª +49</option>
+<option value="+33">ðŸ‡«ðŸ‡· +33</option>
+<option value="+39">ðŸ‡®ðŸ‡¹ +39</option>
+<option value="+81">ðŸ‡¯ðŸ‡µ +81</option>
+<option value="+60">ðŸ‡²ðŸ‡¾ +60</option>
+<option value="+977">ðŸ‡³ðŸ‡µ +977</option>
+<option value="+92">ðŸ‡µðŸ‡° +92</option>
 </select>
 
 </div>
-<div style="
-flex:1;
-height:55px;
-background:#f3f3f3;
-border-radius:18px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:0 10px 0 20px;
-box-sizing:border-box;
-">
 
-    <input
-    type="tel"
-    id="phone"
-    maxlength="10"
-    placeholder="Enter Your Number"
-    oninput="checkNumber()"
-    style="
-    border:none;
-    background:transparent;
-    outline:none;
-    font-size:16px;
-    width:100%;
-    ">
-
-    <!-- Hidden Edit Button -->
-    <button
-    type="button"
-    id="editBtn"
-    onclick="editNumber()"
-    style="
-    display:none;
-    width:80px;
-    height:45px;
-    border:2px solid #444;
-    background:white;
-    border-radius:14px;
-    font-size:15px;
-    ">
-    Edit
-    </button>
+    <div class="phone">
+        <input
+type="tel"
+name="number"
+id="phone"
+maxlength="10"
+placeholder="Enter your phone number"
+oninput="checkNumber()">
+    </div>
 
 </div>
 <!-- OTP Section -->
