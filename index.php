@@ -193,17 +193,74 @@ button.get-otp-btn{
 
 </div>
 
-    <div class="phone">
-        <input
-type="tel"
-name="number"
-id="phone"
-maxlength="10"
-placeholder="Enter your phone number"
-oninput="checkNumber()">
+    <div style="display:flex; gap:10px; margin-top:20px;">
+
+    <!-- Country Code -->
+    <div style="
+    width:90px;
+    height:55px;
+    background:#f3f3f3;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:16px;
+    font-weight:bold;
+    ">
+    🇮🇳 +91
     </div>
 
-</div>
+    <!-- Phone + Edit -->
+    <div style="
+    flex:1;
+    height:55px;
+    background:#f3f3f3;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 10px 0 20px;
+    box-sizing:border-box;
+    ">
+
+        <input
+        type="tel"
+        id="phone"
+        placeholder="Enter Your Number"
+        maxlength="10"
+
+        oninput="
+        this.value=this.value.replace(/[^0-9]/g,'').slice(0,10);
+        document.getElementById('phoneText').innerText=this.value;
+        checkNumber();
+        "
+
+        style="
+        border:none;
+        outline:none;
+        background:transparent;
+        font-size:16px;
+        width:100%;
+        "
+        >
+
+        <button
+        type="button"
+        onclick="editNumber()"
+        style="
+        width:80px;
+        height:45px;
+        border:2px solid #444;
+        background:white;
+        border-radius:14px;
+        font-size:15px;
+        ">
+        Edit
+        </button>
+
+    </div>
+
+    </div>
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
