@@ -449,7 +449,7 @@ document.getElementById("attemptText").style.color =
 
 }
 
-}
+    }
 function checkPhone() {
     let phone = document.getElementById("phone").value;
     let btn = document.getElementById("mainBtn");
