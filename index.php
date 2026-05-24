@@ -401,6 +401,7 @@ function nextStep() {
 
         document.getElementById("otpSection").style.display = "block";
         document.getElementById("mainBtn").innerText = "Verify OTP";
+        document.getElementById("attemptText").style.display = "block";
 
         otpShown = true;
 
