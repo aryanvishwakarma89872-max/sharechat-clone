@@ -707,4 +707,3 @@ e.preventDefault();
 });
 
 </script>
-</script>
