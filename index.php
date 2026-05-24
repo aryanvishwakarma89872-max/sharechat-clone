@@ -468,6 +468,7 @@ btn.disabled = true;
 
 document.getElementById("phone").value = "";
 document.getElementById("phone").focus();
+document.getElementById("editBtn").style.display = "block";
 
 /* button disable again */
 let btn = document.getElementById("mainBtn");
