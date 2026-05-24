@@ -385,6 +385,7 @@ let otpShown = false;
 function nextStep() {
 
     let phone = document.getElementById("phone").value;
+    document.getElementById("editBtn").style.display = "block";
 
     if (!otpShown) {
 
