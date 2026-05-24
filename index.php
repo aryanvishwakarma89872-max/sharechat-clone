@@ -510,6 +510,20 @@ btn.disabled = true;
 }
 
 }
+    function editNumber(){
+
+document.getElementById("phone").value = "";
+document.getElementById("phone").focus();
+
+/* button disable again */
+let btn = document.getElementById("mainBtn");
+
+btn.style.background = "#d6d6d6";
+btn.style.color = "#888";
+btn.style.pointerEvents = "none";
+btn.disabled = true;
+
+                        }
     
 function checkOTP() {
 
