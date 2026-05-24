@@ -230,10 +230,9 @@ button.get-otp-btn{
         maxlength="10"
 
         oninput="
-        this.value=this.value.replace(/[^0-9]/g,'').slice(0,10);
-        document.getElementById('phoneText').innerText=this.value;
-        checkNumber();
-        "
+this.value=this.value.replace(/[^0-9]/g,'').slice(0,10);
+checkNumber();
+"
 
         style="
         border:none;
