@@ -620,6 +620,8 @@ resendBtn.innerText = "Resend";
 }
 
 }, 1000);
+    </script>
+    
 <!-- Popup -->
 <div id="aryanPopup" style="
 position:fixed;
