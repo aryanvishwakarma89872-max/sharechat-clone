@@ -255,11 +255,7 @@ Resend in 30s
 
         </span>
 
-    </div>
-
 </div>
-
-
 
 <!-- Get OTP Button -->
 
