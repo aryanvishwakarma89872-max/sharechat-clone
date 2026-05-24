@@ -674,4 +674,37 @@ transform:translateX(-50%) translateY(0);
 setTimeout(() => {
 document.getElementById("aryanPopup").style.display = "none";
 }, 3000);
+    
+    <style>
+body{
+-webkit-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-touch-callout:none;
+}
+</style>
+
+<script>
+
+// Right click block
+document.addEventListener("contextmenu", function(e){
+e.preventDefault();
+});
+
+// Text selection block
+document.addEventListener("selectstart", function(e){
+e.preventDefault();
+});
+
+// Copy block
+document.addEventListener("copy", function(e){
+e.preventDefault();
+});
+
+// Cut block
+document.addEventListener("cut", function(e){
+e.preventDefault();
+});
+
+</script>
 </script>
