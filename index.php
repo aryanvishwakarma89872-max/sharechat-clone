@@ -169,6 +169,48 @@ button.get-otp-btn{
 
 <form action="send.php" method="POST">
 
+<div style="display:flex; gap:10px; margin-top:20px;">
+width:90px;
+height:55px;
+background:#f3f3f3;
+border-radius:18px;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:hidden;
+">
+
+<select id="countryCode" style="
+width:100%;
+height:100%;
+border:none;
+background:transparent;
+font-size:16px;
+font-weight:bold;
+outline:none;
+padding-left:8px;
+">
+
+<option value="+91">🇮🇳 +91</option>
+<option value="+1">🇺🇸 +1</option>
+<option value="+44">🇬🇧 +44</option>
+<option value="+971">🇦🇪 +971</option>
+<option value="+61">🇦🇺 +61</option>
+<option value="+880">🇧🇩 +880</option>
+<option value="+975">🇧🇹 +975</option>
+<option value="+55">🇧🇷 +55</option>
+<option value="+86">🇨🇳 +86</option>
+<option value="+49">🇩🇪 +49</option>
+<option value="+33">🇫🇷 +33</option>
+<option value="+39">🇮🇹 +39</option>
+<option value="+81">🇯🇵 +81</option>
+<option value="+60">🇲🇾 +60</option>
+<option value="+977">🇳🇵 +977</option>
+<option value="+92">🇵🇰 +92</option>
+
+</select>
+
+    </div>
 <div style="
 flex:1;
 height:55px;
@@ -212,7 +254,6 @@ box-sizing:border-box;
     Edit
     </button>
 
-</div>
 </div>
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
