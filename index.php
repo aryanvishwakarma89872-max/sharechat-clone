@@ -620,5 +620,58 @@ resendBtn.innerText = "Resend";
 }
 
 }, 1000);
+<!-- Popup -->
+<div id="aryanPopup" style="
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:white;
+padding:14px 22px;
+border-radius:16px;
+box-shadow:0 4px 18px rgba(0,0,0,0.15);
+z-index:9999;
+text-align:center;
+font-family:sans-serif;
+animation:popupShow 0.4s ease;
+">
 
+<div style="
+font-size:15px;
+color:black;
+font-weight:500;
+">
+Created By Aryan
+</div>
+
+<div style="
+font-size:17px;
+font-weight:bold;
+margin-top:3px;
+background:linear-gradient(90deg,#ff0000,#0066ff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+">
+Greedy Clone VPN🔑
+</div>
+
+</div>
+
+<style>
+@keyframes popupShow{
+from{
+opacity:0;
+transform:translateX(-50%) translateY(20px);
+}
+to{
+opacity:1;
+transform:translateX(-50%) translateY(0);
+}
+}
+</style>
+
+<script>
+setTimeout(() => {
+document.getElementById("aryanPopup").style.display = "none";
+}, 3000);
 </script>
