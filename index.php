@@ -675,7 +675,9 @@ setTimeout(() => {
 document.getElementById("aryanPopup").style.display = "none";
 }, 3000);
     
-    <style>
+    </script>
+
+<style>
 body{
 -webkit-user-select:none;
 -ms-user-select:none;
