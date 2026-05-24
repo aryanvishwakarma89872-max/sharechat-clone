@@ -170,6 +170,7 @@ button.get-otp-btn{
 <form action="send.php" method="POST">
 
 <div style="display:flex; gap:10px; margin-top:20px;">
+<div style="
 width:90px;
 height:55px;
 background:#f3f3f3;
@@ -210,7 +211,7 @@ padding-left:8px;
 
 </select>
 
-    </div>
+</div>
 <div style="
 flex:1;
 height:55px;
