@@ -255,6 +255,7 @@ Resend in 30s
 
         </span>
 </div>
+</div>
     
 <!-- Get OTP Button -->
 <div id="attemptText"
@@ -262,7 +263,7 @@ onclick="reduceAttempt()"
 style="
 text-align:center;
 color:red;
-font-size:18px;
+font-size:15px;
 margin:5px 0 8px 0;
 font-weight:500;
 display:none;
