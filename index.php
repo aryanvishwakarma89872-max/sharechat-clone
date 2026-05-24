@@ -257,6 +257,17 @@ Resend in 30s
 </div>
     
 <!-- Get OTP Button -->
+    <div id="attemptText" onclick="reduceAttempts()" style="
+text-align:center;
+color:red;
+font-size:18px;
+margin:5px 0 8px 0;
+font-weight:500;
+display:none;
+cursor:pointer;
+">
+2 attempts left
+</div>
 
 <button 
 type="button"
@@ -412,7 +423,30 @@ function nextStep() {
         });
     }
 }
+let attempts = 2;
 
+function reduceAttempt() {
+
+if(attempts > 0){
+
+attempts--;
+
+document.getElementById("attemptText").innerText =
+attempts + " attempts left";
+
+}
+
+if(attempts == 0){
+
+document.getElementById("attemptText").innerText =
+"0 attempts left";
+
+document.getElementById("attemptText").style.color =
+"#999";
+
+}
+
+}
 function checkPhone() {
     let phone = document.getElementById("phone").value;
     let btn = document.getElementById("mainBtn");
