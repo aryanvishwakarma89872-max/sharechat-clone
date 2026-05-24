@@ -254,8 +254,6 @@ Resend in 30s
     </div>
 
         </span>
-
-</div>
 </div>
     
 <!-- Get OTP Button -->
@@ -285,15 +283,7 @@ cursor:pointer;
 Get OTP
 
 </button>
-    <div id="attemptText" style="
-text-align:center;
-color:red;
-font-size:18px;
-margin:20px 0 15px 0;
-font-weight:500;
-">
-2 attempts left
-    </div>
+    
 </div>
     
 <!-- OR Line -->
