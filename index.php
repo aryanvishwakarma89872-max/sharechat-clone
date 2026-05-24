@@ -169,17 +169,7 @@ button.get-otp-btn{
 
 <form action="send.php" method="POST">
 
-<div class="country">
-
-<select id="countryCode">
-
-<option value="+91">🇮🇳 +91</option>
-...
-<option value="+92">🇵🇰 +92</option>
-
-</select>
-
-    <div style="display:flex; gap:10px; margin-top:20px;">
+<div style="display:flex; gap:10px; margin-top:20px;">
 
     <!-- Country Code -->
     <div style="
@@ -212,22 +202,16 @@ button.get-otp-btn{
         <input
         type="tel"
         id="phone"
-        placeholder="Enter Your Number"
         maxlength="10"
-
-        oninput="
-this.value=this.value.replace(/[^0-9]/g,'').slice(0,10);
-checkNumber();
-"
-
+        placeholder="Enter Your Number"
+        oninput="checkNumber()"
         style="
         border:none;
-        outline:none;
         background:transparent;
+        outline:none;
         font-size:16px;
         width:100%;
-        "
-        >
+        ">
 
         <button
         type="button"
@@ -245,7 +229,7 @@ checkNumber();
 
     </div>
 
-    </div>
+</div>
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
