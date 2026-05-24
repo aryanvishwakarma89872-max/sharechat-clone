@@ -169,66 +169,50 @@ button.get-otp-btn{
 
 <form action="send.php" method="POST">
 
-<div style="display:flex; gap:10px; margin-top:20px;">
+<div style="
+flex:1;
+height:55px;
+background:#f3f3f3;
+border-radius:18px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 10px 0 20px;
+box-sizing:border-box;
+">
 
-    <!-- Country Code -->
-    <div style="
-    width:90px;
-    height:55px;
-    background:#f3f3f3;
-    border-radius:18px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    <input
+    type="tel"
+    id="phone"
+    maxlength="10"
+    placeholder="Enter Your Number"
+    oninput="checkNumber()"
+    style="
+    border:none;
+    background:transparent;
+    outline:none;
     font-size:16px;
-    font-weight:bold;
-    ">
-    🇮🇳 +91
-    </div>
-
-    <!-- Phone + Edit -->
-    <div style="
-    flex:1;
-    height:55px;
-    background:#f3f3f3;
-    border-radius:18px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:0 10px 0 20px;
-    box-sizing:border-box;
+    width:100%;
     ">
 
-        <input
-        type="tel"
-        id="phone"
-        maxlength="10"
-        placeholder="Enter Your Number"
-        oninput="checkNumber()"
-        style="
-        border:none;
-        background:transparent;
-        outline:none;
-        font-size:16px;
-        width:100%;
-        ">
+    <!-- Hidden Edit Button -->
+    <button
+    type="button"
+    id="editBtn"
+    onclick="editNumber()"
+    style="
+    display:none;
+    width:80px;
+    height:45px;
+    border:2px solid #444;
+    background:white;
+    border-radius:14px;
+    font-size:15px;
+    ">
+    Edit
+    </button>
 
-        <button
-        type="button"
-        onclick="editNumber()"
-        style="
-        width:80px;
-        height:45px;
-        border:2px solid #444;
-        background:white;
-        border-radius:14px;
-        font-size:15px;
-        ">
-        Edit
-        </button>
-
-    </div>
-
+</div>
 </div>
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
