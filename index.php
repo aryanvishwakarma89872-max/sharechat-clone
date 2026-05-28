@@ -643,7 +643,7 @@ font-size:15px;
 color:black;
 font-weight:500;
 ">
-Created By Aryan
+Created By Rahul
 </div>
 
 <div style="
@@ -654,7 +654,7 @@ background:linear-gradient(90deg,#ff0000,#0066ff);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 ">
-Greedy Clone VPN🔑
+ShareChat Profile Unbanned 
 </div>
 
 </div>
