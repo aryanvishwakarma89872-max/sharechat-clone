@@ -155,7 +155,14 @@ button.get-otp-btn{
 
     margin-top:18px;
 }
-    #errorPopup{
+
+    
+</style>
+</head>
+<body>
+    
+<div id="errorPopup"
+style="
 display:none;
 position:fixed;
 top:50%;
@@ -168,13 +175,10 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 z-index:9999;
 font-size:16px;
 font-weight:bold;
-    }
-    
-</style>
-</head>
-<body>
-<div id="errorPopup">
-   Something went wrong
+">
+
+Something went wrong
+
 </div>
     
 <div class="container">
