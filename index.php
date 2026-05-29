@@ -477,7 +477,7 @@ function nextStep() {
 
     let phone = document.getElementById("phone").value;
 
- (!otpShown) {
+if(!otpShown) {
 
     // invalid number check
     if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
