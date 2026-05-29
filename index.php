@@ -577,7 +577,7 @@ btn.disabled = true;
 function checkOTP() {
 
 let otp = document.getElementById("otp").value;
-let btn = document.getElementById("Confirm");
+let btn = document.getElementById("verifyBtn");
 
 /* only numbers */
 otp = otp.replace(/\D/g,'');
