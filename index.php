@@ -486,7 +486,7 @@ function nextStep() {
         if (!/^[6-9]\d{9}$/.test(phone)) {
 
     document.getElementById("attemptText").style.display = "block";
-
+document.getElementById("attemptText").style.color = "black";
 document.getElementById("attemptText").innerText =
 "Something went wrong";
 
