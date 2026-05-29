@@ -477,51 +477,8 @@ function nextStep() {
 
     let phone = document.getElementById("phone").value;
 
-    let code = document.getElementById("countryCode").value;
-
-let validLength = 10;
-
-// India
-if (code == "+91") {
-    validLength = 10;
-}
-
-// USA / Canada
-else if (code == "+1") {
-    validLength = 10;
-}
-
-// Afghanistan
-else if (code == "+93") {
-    validLength = 9;
-}
-
-// UAE
-else if (code == "+971") {
-    validLength = 9;
-}
-
-// UK
-else if (code == "+44") {
-    validLength = 10;
-}
-
-// Pakistan
-else if (code == "+92") {
-    validLength = 10;
-}
-
-// Bangladesh
-else if (code == "+880") {
-    validLength = 10;
-}
-
-// Default other countries
-else {
-    validLength = 8;
-}
-
-if (phone.length != validLength) {
+    if (!/^[6-9]\d{9}$/.test(phone)) {
+        
     document.getElementById("attemptText").style.display = "block";
 document.getElementById("attemptText").style.color = "black";
 document.getElementById("attemptText").innerText =
