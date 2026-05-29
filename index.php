@@ -172,8 +172,6 @@ font-weight:bold;
 ">
 
 Something went wrong
-
-</div>
     
 </style>
 </head>
