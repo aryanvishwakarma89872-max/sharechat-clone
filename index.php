@@ -480,13 +480,9 @@ function nextStep() {
 if(!otpShown) {
 
     // invalid number check
-    if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
-    
-        
-    document.getElementById("attemptText").style.display = "block";
-document.getElementById("attemptText").style.color = "black";
-document.getElementById("attemptText").innerText =
-alert("Something went wrong");
+  if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
+
+    alert("Something went wrong");
 
     return;
     }
