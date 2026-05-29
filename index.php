@@ -155,8 +155,7 @@ button.get-otp-btn{
 
     margin-top:18px;
 }
-    <div id="errorPopup"
-style="
+    #errorPopup{
 display:none;
 position:fixed;
 top:50%;
@@ -169,9 +168,7 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 z-index:9999;
 font-size:16px;
 font-weight:bold;
-">
-
-Something went wrong
+    }
     
 </style>
 </head>
@@ -405,6 +402,10 @@ Get OTP
 </button>
     
 </div>
+
+    <div id="errorPopup">
+   Something went wrong
+    </div>
     
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
