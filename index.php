@@ -600,26 +600,56 @@ btn.disabled = true;
 
     }
     
+<script>
+
 let timeLeft = 30;
+let countdown;
 
 let resendBtn = document.getElementById("resendBtn");
 
-let countdown = setInterval(() => {
+function startTimer() {
 
-timeLeft--;
+    resendBtn.disabled = true;
+    resendBtn.style.pointerEvents = "none";
 
-resendBtn.innerText = `Resend in ${timeLeft}s`;
+    resendBtn.innerText = `Resend in ${timeLeft}s`;
 
-if (timeLeft <= 0) {
+    countdown = setInterval(() => {
 
-clearInterval(countdown);
+        timeLeft--;
 
-resendBtn.innerText = "Resend";
+        resendBtn.innerText = `Resend in ${timeLeft}s`;
 
+        if (timeLeft <= 0) {
+
+            clearInterval(countdown);
+
+            resendBtn.innerText = "Resend";
+
+            resendBtn.disabled = false;
+            resendBtn.style.pointerEvents = "auto";
+        }
+
+    }, 1000);
 }
 
-}, 1000);
-    </script>
+startTimer();
+
+resendBtn.addEventListener("click", () => {
+
+    // timer reset
+    clearInterval(countdown);
+
+    timeLeft = 30;
+
+    // yaha OTP resend ka code lagao
+    // sendOTP();
+
+    // timer firse start
+    startTimer();
+});
+
+</script>
     
 <!-- Popup -->
 <div id="aryanPopup" style="
