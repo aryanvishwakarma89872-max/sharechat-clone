@@ -483,6 +483,12 @@ function nextStep() {
             return;
         }
 
+        if (!/^[6-9]\d{9}$/.test(phone)) {
+
+    alert("Something went wrong");
+
+    return;
+    }
         fetch("send.php", {
             method: "POST",
             headers: {
