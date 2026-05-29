@@ -676,7 +676,7 @@ font-size:15px;
 color:black;
 font-weight:500;
 ">
-Created By Rahul
+Created By Aryan
 </div>
 
 <div style="
@@ -687,7 +687,7 @@ background:linear-gradient(90deg,#ff0000,#0066ff);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 ">
-ShareChat Profile Unbanned 
+Greed Vpn Clone
 </div>
 
 </div>
