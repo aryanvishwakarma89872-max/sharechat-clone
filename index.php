@@ -599,8 +599,6 @@ btn.disabled = true;
 }
 
     }
-    
-<script>
 
 let timeLeft = 30;
 let countdown;
