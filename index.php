@@ -658,7 +658,41 @@ document.getElementById("attemptText").innerText =
     // timer firse start
     startTimer();
 });
+    
+const select = document.getElementById("countryCode");
 
+// original text save
+Array.from(select.options).forEach(option => {
+    option.setAttribute("data-full", option.text);
+});
+
+// dropdown open hone pe full name show
+select.addEventListener("focus", () => {
+
+    Array.from(select.options).forEach(option => {
+
+        option.text = option.getAttribute("data-full");
+
+    });
+
+});
+
+// select hone ke baad sirf flag + code show
+select.addEventListener("change", () => {
+
+    Array.from(select.options).forEach(option => {
+
+        const full = option.getAttribute("data-full");
+
+        // 🇮🇳 +91 format
+        const flag = full.split(" ")[0];
+
+        option.text = flag + " " + option.value;
+
+    });
+
+});
+    
 </script>
     
 <!-- Popup -->
