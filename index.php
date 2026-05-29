@@ -636,7 +636,9 @@ function startTimer() {
 startTimer();
 
 resendBtn.addEventListener("click", () => {
-
+if (attempts <= -2) {
+    return;
+    }
     attempts--;
 
 document.getElementById("attemptText").innerText =
