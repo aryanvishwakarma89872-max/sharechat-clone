@@ -352,7 +352,11 @@ font-weight:500;
 display:none;
 cursor:pointer;
 ">
+<span id="attemptText" style="color:red;">
    2 attempts left
+</span>
+
+</div>
     
 <button 
 type="button"
