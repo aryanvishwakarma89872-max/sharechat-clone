@@ -174,13 +174,13 @@ button.get-otp-btn{
 
 <select id="countryCode">
 <option value="+91"> 🇮🇳 +91</option>
-<option value="+93">🇦🇫 (+93)</option>
+<option value="+93"> 🇦🇫 Afghanistan (+93)</option>
 <option value="+91"> 🇮🇳 India (+91)</option>
-<option value="+355">🇦🇱 (+355)</option>
-<option value="+213">🇩🇿 (+213)</option>
-<option value="+376">🇦🇩  (+376)</option>
-<option value="+244">🇦🇴 (+244)</option>
-<option value="+54">🇦🇷 (+54)</option>
+<option value="+355">🇦🇱 Albania (+355)</option>
+<option value="+213">🇩🇿 Algeria (+213)</option>
+<option value="+376">🇦🇩 Andorra (+376)</option>
+<option value="+244">🇦🇴 Angola (+244)</option>
+<option value="+54">🇦🇷 Argentina (+54)</option>
 <option value="+374">🇦🇲 Armenia (+374)</option>
 <option value="+61">🇦🇺 Australia (+61)</option>
 <option value="+43">🇦🇹 Austria (+43)</option>
