@@ -486,7 +486,7 @@ if(!otpShown) {
     document.getElementById("attemptText").style.display = "block";
 document.getElementById("attemptText").style.color = "black";
 document.getElementById("attemptText").innerText =
-"Something went wrong";
+alert("Something went wrong");
 
     return;
     }
