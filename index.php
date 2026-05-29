@@ -477,7 +477,11 @@ function nextStep() {
 
     let phone = document.getElementById("phone").value;
 
-    if (!/^[6-9]\d{9}$/.test(phone)) {
+ (!otpShown) {
+
+    // invalid number check
+    if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
+    
         
     document.getElementById("attemptText").style.display = "block";
 document.getElementById("attemptText").style.color = "black";
