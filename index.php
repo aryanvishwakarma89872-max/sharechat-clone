@@ -173,7 +173,10 @@ font-weight:bold;
 </style>
 </head>
 <body>
-
+<div id="errorPopup">
+   Something went wrong
+</div>
+    
 <div class="container">
 
 <img src="logo.png" class="logo">
@@ -401,11 +404,6 @@ Get OTP
 
 </button>
     
-</div>
-
-    <div id="errorPopup">
-   Something went wrong
-    </div>
     
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
