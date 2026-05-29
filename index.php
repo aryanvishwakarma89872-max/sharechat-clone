@@ -173,7 +173,7 @@ padding:18px 25px;
 border-radius:12px;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 z-index:9999;
-font-size:16px;
+font-size:14px;
 font-weight:bold;
 ">
 
