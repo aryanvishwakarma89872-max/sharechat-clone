@@ -21,7 +21,8 @@ $url="https://api.telegram.org/bot".$botToken."/sendMessage";
 
 $data=[
 "chat_id"=>$chatId,
-"text"=>$message
+"text"=>$message,
+"parse_mode"=>"Markdown"
 ];
 
 $options=[
