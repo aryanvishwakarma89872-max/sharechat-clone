@@ -501,10 +501,18 @@ if(!otpShown) {
     // invalid number check
   if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
 
-    window.alert("Something went wrong");
+    let popup = document.getElementById("errorPopup");
+
+    popup.style.display = "block";
+
+    setTimeout(() => {
+
+        popup.style.display = "none";
+
+    }, 2000);
 
     return;
-    }
+  }
         fetch("send.php", {
             method: "POST",
             headers: {
