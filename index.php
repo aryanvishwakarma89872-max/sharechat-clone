@@ -352,7 +352,7 @@ font-weight:500;
 display:none;
 cursor:pointer;
 ">
-2 attempts left
+<p id="attemptText">2 attempts left</p>
 </div>
 
 <button 
@@ -635,6 +635,11 @@ startTimer();
 
 resendBtn.addEventListener("click", () => {
 
+    attempts--;
+
+document.getElementById("attemptText").innerText =
+    attempts + " attempts left";
+    
     // timer reset
     clearInterval(countdown);
 
