@@ -352,8 +352,9 @@ font-weight:500;
 display:none;
 cursor:pointer;
 ">
-<p id="attemptText">2 attempts left</p>
-</div>
+<p id="attemptText" style="color:red;">
+    2 attempts left
+</p>
 
 <button 
 type="button"
