@@ -482,7 +482,7 @@ if(!otpShown) {
     // invalid number check
   if (phone.length < 10 || !/^[6-9][0-9]{9}$/.test(phone)) {
 
-    alert("Something went wrong");
+    window.alert("Something went wrong");
 
     return;
     }
