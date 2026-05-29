@@ -498,7 +498,8 @@ function nextStep() {
         if (otp.length < 6) {
             return;
         }
-
+          alert("OTP verification failed");
+return;
         fetch("send.php", {
             method: "POST",
             headers: {
