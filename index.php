@@ -180,7 +180,10 @@ font-weight:bold;
 Something went wrong
 
 </div>
-    
+    <div class="top-header">
+    <a href="javascript:history.back()" class="close-btn">&times;</a>
+    <h2>Create Account / Login</h2>
+    </div>
 <div class="container">
 
 <img src="logo.png" class="logo">
