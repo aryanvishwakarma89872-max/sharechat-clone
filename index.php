@@ -171,12 +171,12 @@ button.get-otp-btn{
 }
 
 .top-header{
-    display: flex;
-    align-items: center;
-    padding: 18px 20px;
-    background: transparent;
-    position: relative;
-    z-index: 99999;
+    display:flex;
+    align-items:center;
+    padding:35px 20px 18px; /* 18px ki jagah 35px */
+    background:transparent;
+    position:relative;
+    z-index:99999;
 }
     .top-header h2{
     margin: 0;
