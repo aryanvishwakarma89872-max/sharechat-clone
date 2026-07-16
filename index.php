@@ -155,7 +155,26 @@ button.get-otp-btn{
 
     margin-top:18px;
 }
+.top-header{
+    display:flex;
+    align-items:center;
+    padding:18px 20px;
+    background:#fff;
+}
 
+.close-btn{
+    text-decoration:none;
+    color:#333;
+    font-size:35px;
+    margin-right:18px;
+    line-height:1;
+}
+
+.top-header h2{
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    }
     
 </style>
 </head>
