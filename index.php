@@ -178,7 +178,12 @@ button.get-otp-btn{
     position:relative;
     z-index:99999;
 }
-    
+    .top-header h2{
+    margin: 0;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    }
 </style>
 </head>
 <body>
