@@ -180,7 +180,7 @@ button.get-otp-btn{
 }
     .top-header h2{
     margin: 0;
-    font-size: 17px;
+    font-size: 20px;
     color: #000;
     font-weight: 700;
     }
