@@ -170,11 +170,14 @@ button.get-otp-btn{
     line-height:1;
 }
 
-.top-header h2{
-    margin:0;
-    font-size:22px;
-    font-weight:700;
-    }
+.top-header{
+    display:flex;
+    align-items:center;
+    padding:18px 20px;
+    background:#fff;
+    position:relative;
+    z-index:99999;
+}
     
 </style>
 </head>
