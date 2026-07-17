@@ -371,7 +371,7 @@ box-sizing:border-box;
 style="
 position:absolute;
 right:10px;
-top:50%;
+top:55%;
 transform:translateY(-50%);
 
 height:40px;
