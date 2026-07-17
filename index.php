@@ -469,22 +469,21 @@ Get OTP
 display:flex;
 align-items:center;
 justify-content:center;
-width:100%;
-margin:15px auto 20px auto;
+width:96%;
+margin:18px auto 20px auto;
 ">
 
 <div style="
 flex:1;
 height:1px;
 background:#d0d0d0;
-max-width:110px;
 "></div>
 
 <div style="
-padding:0 18px;
-font-weight:bold;
-font-size:18px;
-color:#000;
+padding:0 12px;
+font-weight:600;
+font-size:14px;
+color:#444;
 ">
 Or
 </div>
@@ -493,7 +492,6 @@ Or
 flex:1;
 height:1px;
 background:#d0d0d0;
-max-width:110px;
 "></div>
 
 </div>
