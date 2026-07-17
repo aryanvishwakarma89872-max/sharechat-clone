@@ -107,6 +107,10 @@ p {
     border-radius:14px;
     padding:0 16px;
     font-size:16px;
+    font-weight: 600;
+    .phone input::placeholder{
+    font-weight:600;
+    }
     box-sizing:border-box;
 }
 
