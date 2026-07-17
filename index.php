@@ -559,7 +559,9 @@ if(!otpShown) {
         document.getElementById("attemptText").style.display = "block";
         document.getElementById("socialSection").style.display = "none";
         document.getElementById("mainBtn").style.position = "relative";
-document.getElementById("mainBtn").style.top = "180px";
+document.getElementById("mainBtn").style.top = "170px";
+    document.getElementById("attemptText").style.position = "relative";
+document.getElementById("attemptText").style.top = "130px";
         otpShown = true;
 
     } else {
