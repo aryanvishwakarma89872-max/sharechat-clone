@@ -214,9 +214,10 @@ Something went wrong
 <div class="container">
 
 <img src="logo.png" class="logo">
+    id="logoSection"
 
-<h1>Welcome!</h1>
-<p>Login for an amazing experience</p>
+<h1 id="welcomeText">Welcome!</h1>
+<p id="welcomeSubText">Login for an amazing experience</p>
 
 <form action="send.php" method="POST">
 
