@@ -572,7 +572,7 @@ document.querySelector(".container").style.marginTop = "-80px";
 document.querySelector(".container").style.paddingTop = "-10px";
 
 /* attempts text ko niche le jana */
-document.getElementById("attemptText").style.marginTop = "320px";
+document.getElementById("attemptText").style.marginTop = "420px";
 
 /* confirm button ko bilkul niche fix karna */
 document.getElementById("mainBtn").style.position = "fixed";
