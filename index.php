@@ -436,7 +436,7 @@ color:#888;
 pointer-events:none;
 transition:0.3s;
 margin:5px auto 0;
-display:block;
+display:none;
 cursor:pointer;
 ">
 
@@ -640,6 +640,8 @@ document.getElementById("welcomeText").style.display = "none";
 document.getElementById("welcomeSubText").style.display = "none";
 document.getElementById("socialSection").style.display = "none";
 document.querySelector(".container").style.marginTop = "-80px";
+document.getElementById("mainBtn").style.display = "block";
+        
 
 document.querySelector(".container").style.marginTop = "0px";
 
