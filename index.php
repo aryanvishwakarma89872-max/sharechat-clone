@@ -429,7 +429,7 @@ background:#d6d6d6;
 color:#888;
 pointer-events:none;
 transition:0.3s;
-margin:18px auto 0;
+margin:5px auto 0;
 display:block;
 cursor:pointer;
 ">
