@@ -638,6 +638,7 @@ document.querySelector(".logo").style.display = "none";
 document.getElementById("welcomeText").style.display = "none";
 document.getElementById("welcomeSubText").style.display = "none";
 document.getElementById("socialSection").style.display = "none";
+document.querySelector(".container").style.marginTop = "-80px";
 
 document.querySelector(".container").style.marginTop = "0px";
 
