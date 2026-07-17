@@ -405,7 +405,7 @@ Resend in 30s
 <div id="attemptText"
 style="
 position:fixed;
-bottom:95px;   /* Confirm button ke upar */
+bottom:90px;   /* Confirm button ke upar */
 left:50%;
 transform:translateX(-50%);
 color:red;
