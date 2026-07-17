@@ -561,7 +561,7 @@ if(!otpShown) {
         document.getElementById("mainBtn").style.position = "relative";
 document.getElementById("mainBtn").style.top = "170px";
     document.getElementById("attemptText").style.position = "relative";
-document.getElementById("attemptText").style.top = "130px";
+document.getElementById("attemptText").style.top = "150px";
         otpShown = true;
 
     } else {
