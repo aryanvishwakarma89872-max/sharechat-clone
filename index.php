@@ -473,7 +473,7 @@ Get OTP
 <button type="button" style="
 width:92%;
 padding:0px 12px;
-border:2px solid #5d7df5;
+border:1px solid #8aa2f7;
 border-radius:6px;
 background:white;
 font-size:14px;
@@ -498,7 +498,7 @@ Continue with Google
 <button type="button" style="
 width:92%;
 padding:0px 12px;
-border:2px solid #5d7df5;
+border:1px solid #8aa2f7;
 border-radius:6px;
 background:white;
 font-size:14px;
