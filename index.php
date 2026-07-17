@@ -674,6 +674,12 @@ btn.disabled = true;
 
 }
 
+    document.getElementById("mainBtn").style.position = "fixed";
+document.getElementById("mainBtn").style.bottom = "25px";
+document.getElementById("mainBtn").style.left = "50%";
+document.getElementById("mainBtn").style.transform = "translateX(-50%)";
+document.getElementById("mainBtn").style.width = "90%";
+document.getElementById("mainBtn").style.zIndex = "999";
 }
     
 function checkOTP() {
