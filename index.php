@@ -92,6 +92,7 @@ p {
     background:transparent;
     font-size:15px;
     font-weight:600;
+    color:#9e9e9e;
     padding:0 10px;
     appearance:none;
     -webkit-appearance:none;
