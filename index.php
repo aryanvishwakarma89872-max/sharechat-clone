@@ -47,7 +47,7 @@ color:white;
 
 .logo {
     width: 110px;
-    margin: 10px auto 10px;
+    margin: 20px auto 20px;
     display: block;
     border-radius: 20px;
 }
