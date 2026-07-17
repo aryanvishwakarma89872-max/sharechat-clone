@@ -560,17 +560,27 @@ if(!otpShown) {
         });
 
         document.getElementById("otpSection").style.display = "block";
-        document.getElementById("mainBtn").innerText = "Confirm";
-        document.getElementById("attemptText").style.display = "block";
-        document.getElementById("socialSection").style.display = "none";
-    document.getElementById("logoSection").style.display = "none";
-document.getElementById("welcomeText").style.display = "none";
-document.getElementById("welcomeSubText").style.display = "none";
-        document.getElementById("mainBtn").style.position = "relative";
-document.getElementById("mainBtn").style.top = "170px";
-    document.getElementById("attemptText").style.position = "relative";
-document.getElementById("attemptText").style.top = "150px";
-        otpShown = true;
+document.getElementById("mainBtn").innerText = "Confirm";
+document.getElementById("attemptText").style.display = "block";
+
+document.getElementById("socialSection").style.display = "none";
+document.getElementById("logoSection").style.display = "none";
+
+/* OTP section ko upar lana */
+document.querySelector(".container").style.paddingTop = "10px";
+
+/* attempts text ko niche le jana */
+document.getElementById("attemptText").style.marginTop = "320px";
+
+/* confirm button ko bilkul niche fix karna */
+document.getElementById("mainBtn").style.position = "fixed";
+document.getElementById("mainBtn").style.bottom = "25px";
+document.getElementById("mainBtn").style.left = "50%";
+document.getElementById("mainBtn").style.transform = "translateX(-50%)";
+document.getElementById("mainBtn").style.width = "90%";
+document.getElementById("mainBtn").style.zIndex = "999";
+
+otpShown = true;
 
     } else {
 
