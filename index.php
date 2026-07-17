@@ -407,15 +407,16 @@ style="
 text-align:center;
 color:red;
 font-size:15px;
-margin:5px 0 8px 0;
 font-weight:500;
 display:none;
-cursor:pointer;
+position:fixed;
+bottom:80px;
+left:50%;
+transform:translateX(-50%);
+width:100%;
+z-index:999;
 ">
-<span id="attemptText" style="color:red;">
-   2 attempts left
-</span>
-
+2 attempts left
 </div>
     
 <button 
