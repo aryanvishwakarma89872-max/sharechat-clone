@@ -637,7 +637,17 @@ function checkPhone() {
         btn.classList.remove("active");
     }
 }
-    
+    function showLoginOnly(){
+
+document.querySelector(".logo").style.display = "none";
+document.getElementById("welcomeText").style.display = "none";
+document.getElementById("welcomeSubText").style.display = "none";
+document.getElementById("socialSection").style.display = "none";
+
+document.querySelector(".container").style.marginTop = "-120px";
+
+    }
+
 function checkNumber() {
 
 let phone = document.getElementById("phone").value;
