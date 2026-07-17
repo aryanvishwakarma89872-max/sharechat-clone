@@ -42,6 +42,7 @@ color:white;
     margin: auto;
     text-align: center;
     padding: 10px 20px;
+    margin-top:-30px;
 }
 
 .logo {
