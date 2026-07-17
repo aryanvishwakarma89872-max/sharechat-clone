@@ -377,12 +377,11 @@ height:55px;
 border:none;
 border-radius:18px;
 padding-left:20px;
-padding-right:120px;
+padding-right:140px;
 font-size:16px;
 background: #ececec;
 color: #222;
 font-weight:bold;
-background:#f3f3f3;
 box-sizing:border-box;
 ">
 
