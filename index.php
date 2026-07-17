@@ -684,7 +684,7 @@ btn.disabled = true;
 function checkOTP() {
 
 let otp = document.getElementById("otp").value;
-let btn = document.getElementById("verifyBtn");
+let btn = document.getElementById("mainBtn");
 
 /* only numbers */
 otp = otp.replace(/\D/g,'');
