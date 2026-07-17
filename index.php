@@ -343,7 +343,8 @@ name="number"
 id="phone"
 maxlength="10"
 placeholder="Enter your phone number"
-oninput="checkNumber()">
+oninput="checkNumber()"
+onfocus="showLoginOnly()">
     </div>
 
 </div>
