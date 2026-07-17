@@ -41,7 +41,7 @@ color:white;
     max-width: 400px;
     margin: auto;
     text-align: center;
-    padding: 40px 20px;
+    padding: 10px 20px;
 }
 
 .logo {
