@@ -679,6 +679,8 @@ btn.disabled = true;
 
 }
     
+}
+    
 function checkOTP() {
 
 let otp = document.getElementById("otp").value;
