@@ -425,6 +425,12 @@ id="mainBtn"
 onclick="nextStep()"
 
 style="
+position: fixed;
+bottom: 25px;
+left: 50%;
+transform: translateX(-50%);
+width: 90%;
+z-index: 999;
 width:90%;
 height:45px;
 border:none;
@@ -671,14 +677,6 @@ btn.style.color = "#888";
 btn.style.pointerEvents = "none";
 btn.disabled = true;
 
-}
-
-    document.getElementById("mainBtn").style.position = "fixed";
-document.getElementById("mainBtn").style.bottom = "25px";
-document.getElementById("mainBtn").style.left = "50%";
-document.getElementById("mainBtn").style.transform = "translateX(-50%)";
-document.getElementById("mainBtn").style.width = "90%";
-document.getElementById("mainBtn").style.zIndex = "999";
 }
     
 function checkOTP() {
