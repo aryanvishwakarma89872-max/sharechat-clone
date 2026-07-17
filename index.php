@@ -565,8 +565,7 @@ document.getElementById("attemptText").style.display = "block";
 
 document.getElementById("socialSection").style.display = "none";
 document.getElementById("logoSection").style.display = "none";
-document.querySelector(".input-box").style.marginTop = "20px";
-document.getElementById("otpSection").style.marginTop = "10px";
+document.querySelector(".container").style.marginTop = "-80px";
 
     
 /* OTP section ko upar lana */
