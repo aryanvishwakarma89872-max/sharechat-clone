@@ -519,6 +519,7 @@ By continuing, you agree to our
 <b>Terms and Conditions, Privacy Policy and Content & Community Guidelines.</b>
 
 </div>
+</div>
 
 <script>
 
