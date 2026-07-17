@@ -565,7 +565,7 @@ document.getElementById("attemptText").style.display = "block";
 
 document.getElementById("socialSection").style.display = "none";
 document.getElementById("logoSection").style.display = "none";
-    document.getElementById("otpSection").style.marginTop = "-40px";
+
     
 /* OTP section ko upar lana */
 document.querySelector(".container").style.paddingTop = "-10px";
