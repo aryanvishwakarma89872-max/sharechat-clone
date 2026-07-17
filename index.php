@@ -558,7 +558,7 @@ if(!otpShown) {
         document.getElementById("mainBtn").innerText = "Confirm";
         document.getElementById("attemptText").style.display = "block";
         document.getElementById("socialSection").style.display = "none";
-        document.getElementById("mainBtn").style.marginTop = "80px";
+        document.getElementById("mainBtn").style.marginTop = "100px";
         otpShown = true;
 
     } else {
