@@ -567,7 +567,7 @@ document.getElementById("socialSection").style.display = "none";
 document.getElementById("logoSection").style.display = "none";
 
 /* OTP section ko upar lana */
-document.querySelector(".container").style.paddingTop = "10px";
+document.querySelector(".container").style.paddingTop = "-40px";
 
 /* attempts text ko niche le jana */
 document.getElementById("attemptText").style.marginTop = "320px";
