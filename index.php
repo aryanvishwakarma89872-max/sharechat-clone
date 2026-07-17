@@ -46,7 +46,7 @@ color:white;
 
 .logo {
     width: 110px;
-    margin: 50px auto 20px;
+    margin: 10px auto 10px;
     display: block;
     border-radius: 20px;
 }
