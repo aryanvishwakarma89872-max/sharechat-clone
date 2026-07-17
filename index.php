@@ -213,11 +213,15 @@ Something went wrong
   </div>  
 <div class="container">
 
-<img src="logo.png" class="logo">
-    id="logoSection"
+<div id="logoSection">
 
-<h1 id="welcomeText">Welcome!</h1>
-<p id="welcomeSubText">Login for an amazing experience</p>
+    <img src="logo.png" class="logo">
+
+    <h1 id="welcomeText">Welcome!</h1>
+
+    <p id="welcomeSubText">Login for an amazing experience</p>
+
+</div>
 
 <form action="send.php" method="POST">
 
