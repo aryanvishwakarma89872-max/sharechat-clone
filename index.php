@@ -645,7 +645,7 @@ document.querySelector(".logo").style.display = "none";
 document.getElementById("welcomeText").style.display = "none";
 document.getElementById("welcomeSubText").style.display = "none";
 document.getElementById("socialSection").style.display = "none";
-document.querySelector(".input-box").style.marginTop = "10px";
+document.querySelector(".input-box").style.marginTop = "3px";
 document.getElementById("mainBtn").style.display = "block";
         
 
