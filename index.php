@@ -477,7 +477,7 @@ Get OTP
 
 <!-- Google Button -->
 <button type="button" style="
-width:92%;
+width:98%;
 padding:0px 12px;
 border:1px solid #8aa2f7;
 border-radius:6px;
@@ -502,7 +502,7 @@ Continue with Google
 
 <!-- Truecaller Button -->
 <button type="button" style="
-width:92%;
+width:98%;
 padding:0px 12px;
 border:1px solid #8aa2f7;
 border-radius:6px;
