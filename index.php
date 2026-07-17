@@ -404,16 +404,14 @@ Resend in 30s
 <!-- Get OTP Button -->
 <div id="attemptText"
 style="
-text-align:center;
+position:fixed;
+bottom:95px;   /* Confirm button ke upar */
+left:50%;
+transform:translateX(-50%);
 color:red;
 font-size:15px;
 font-weight:500;
 display:none;
-position:fixed;
-bottom:80px;
-left:50%;
-transform:translateX(-50%);
-width:100%;
 z-index:999;
 ">
 2 attempts left
