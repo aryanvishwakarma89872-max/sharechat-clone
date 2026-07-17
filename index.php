@@ -92,7 +92,8 @@ p {
     background:transparent;
     font-size:15px;
     font-weight:600;
-    color:#9e9e9e;
+    color:#555555 !important;
+font-weight:600;
     padding:0 10px;
     appearance:none;
     -webkit-appearance:none;
