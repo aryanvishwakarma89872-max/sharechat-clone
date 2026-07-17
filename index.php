@@ -574,9 +574,6 @@ document.getElementById("logoSection").style.display = "none";
 /* OTP section ko upar lana */
 document.getElementById("otpSection").style.marginTop = "-120px";
 
-/* attempts text ko niche le jana */
-document.getElementById("attemptText").style.marginTop = "480px";
-
 /* confirm button ko bilkul niche fix karna */
 document.getElementById("mainBtn").style.position = "fixed";
 document.getElementById("mainBtn").style.bottom = "25px";
