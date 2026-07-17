@@ -438,7 +438,8 @@ Get OTP
 
 </button>
     
-    
+<div id="socialSection">
+        
 <!-- OR Line -->
 <div style="display:flex; align-items:center; width:92%; margin:auto;">
     
