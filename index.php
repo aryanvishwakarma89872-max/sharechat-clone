@@ -645,7 +645,7 @@ document.querySelector(".logo").style.display = "none";
 document.getElementById("welcomeText").style.display = "none";
 document.getElementById("welcomeSubText").style.display = "none";
 document.getElementById("socialSection").style.display = "none";
-document.querySelector(".input-box").style.marginTop = "3px";
+document.querySelector(".input-box").style.marginTop = "2px";
 document.getElementById("mainBtn").style.display = "block";
         
 
@@ -762,7 +762,19 @@ document.getElementById("attemptText").innerText =
     // timer firse start
     startTimer();
 });
-    
+ window.visualViewport.addEventListener("resize", () => {
+
+    let btn = document.getElementById("mainBtn");
+
+    if (window.visualViewport.height < window.innerHeight) {
+        // Keyboard open
+        btn.style.bottom =
+            (window.innerHeight - window.visualViewport.height + 20) + "px";
+    } else {
+        // Keyboard close
+        btn.style.bottom = "25px";
+    }
+});   
 const select = document.getElementById("countryCode");
 
 // original text save
