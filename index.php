@@ -368,7 +368,7 @@ placeholder="Enter OTP"
 oninput="checkOTP()"
 
 style="
-width:100%;
+width:58%;
 height:55px;
 border:none;
 border-radius:18px;
