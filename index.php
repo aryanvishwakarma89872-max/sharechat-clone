@@ -368,12 +368,12 @@ placeholder="Enter OTP"
 oninput="checkOTP()"
 
 style="
-width:58%;
+width:100%;
 height:55px;
 border:none;
 border-radius:18px;
 padding-left:20px;
-padding-right:150px;
+padding-right:120px;
 font-size:16px;
 background:#f3f3f3;
 box-sizing:border-box;
