@@ -67,7 +67,7 @@ p {
     display:flex;
     align-items:center;
     gap:10px;
-    margin-top:-30px;
+    margin-top:25px;
     width:100%;
 }
 /* COUNTRY BOX */
