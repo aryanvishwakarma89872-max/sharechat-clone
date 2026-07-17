@@ -465,13 +465,38 @@ Get OTP
 <div id="socialSection">
         
 <!-- OR Line -->
-<div style="flex:1; height:1px; background:#ccc; max-width:120px;"></div>
+<div style="
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+margin:15px auto 20px auto;
+">
 
-<div style="padding:0 15px; font-weight:bold;">Or</div>
+<div style="
+flex:1;
+height:1px;
+background:#d0d0d0;
+max-width:110px;
+"></div>
 
-<div style="flex:1; height:1px; background:#ccc; max-width:120px;"></div>
+<div style="
+padding:0 18px;
+font-weight:bold;
+font-size:18px;
+color:#000;
+">
+Or
 </div>
 
+<div style="
+flex:1;
+height:1px;
+background:#d0d0d0;
+max-width:110px;
+"></div>
+
+</div>
 <!-- Google Button -->
 <button type="button" style="
 width:98%;
