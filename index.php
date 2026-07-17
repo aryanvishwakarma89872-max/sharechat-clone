@@ -358,8 +358,12 @@ onfocus="showLoginOnly()">
 <!-- OTP Section -->
 <div id="otpSection" style="display:none; margin-top:10px;">
 
-    <div style="position:relative; width:90%; margin:auto;">
-
+    <div style="position:relative; width:100%; margin:auto;">
+<div style="
+position:relative;
+width:100%;
+margin-left:0;
+">
 <input
 type="tel"
 id="otp"
