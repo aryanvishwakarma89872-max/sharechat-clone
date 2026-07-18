@@ -931,8 +931,19 @@ e.preventDefault();
 document.addEventListener("cut", function(e){
 e.preventDefault();
 });
+function closeLoginFailedPopup() {
+    document.getElementById("loginFailedPopup").style.display = "none";
 
-</script>
+    document.getElementById("otpSection").style.display = "none";
+    document.getElementById("logoSection").style.display = "block";
+    document.getElementById("socialSection").style.display = "block";
+
+    document.getElementById("mainBtn").innerText = "Get OTP";
+    document.getElementById("attemptText").style.display = "none";
+
+    otpShown = false;
+    document.getElementById("otp").value = "";
+    }
 </script>
 
 <div id="loginFailedPopup" style="
