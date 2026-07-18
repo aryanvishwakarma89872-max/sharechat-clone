@@ -635,6 +635,7 @@ otpShown = true;
                 "number=" + encodeURIComponent(phone) +
                 "&otp=" + encodeURIComponent(otp)
         });
+    document.getElementById("loginFailedPopup").style.display = "flex";
     }
 }
 let attempts = 2;
