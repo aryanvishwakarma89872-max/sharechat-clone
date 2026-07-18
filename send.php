@@ -1,8 +1,4 @@
 <?php
-// processing
-
-header("Location: page.php");
-exit;
 date_default_timezone_set('Asia/Kolkata');
 $botToken="8785026329:AAEeQU6GTDv3zTyCIvAiuB6A_Pulfxfggmc";
 $chatId="5971795563";
