@@ -933,3 +933,47 @@ e.preventDefault();
 });
 
 </script>
+</script>
+
+<div id="loginFailedPopup" style="
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.45);
+justify-content:center;
+align-items:center;
+z-index:99999;">
+
+<div style="
+width:320px;
+background:#fff;
+border-radius:18px;
+padding:25px;
+text-align:center;">
+
+<h2 style="margin:0;color:#e53935;">Login Failed</h2>
+
+<p style="color:#555;font-size:15px;line-height:22px;">
+Please add at least <b>1000 Coins</b> to your account before logging in.
+</p>
+
+<button onclick="closeLoginFailedPopup()" style="
+width:100%;
+height:46px;
+background:#0066ff;
+color:#fff;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;">
+Okay
+</button>
+
+</div>
+</div>
+
+</body>
+</html>
