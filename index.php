@@ -941,8 +941,8 @@ function closeLoginFailedPopup() {
     document.getElementById("mainBtn").innerText = "Get OTP";
     document.getElementById("attemptText").style.display = "none";
 
-    otpShown = false;
     document.getElementById("otp").value = "";
+    otpShown = false;
     }
 </script>
 
